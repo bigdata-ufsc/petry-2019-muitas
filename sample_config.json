@@ -1,0 +1,16 @@
+{
+	"experiment_name": "My Experiment",
+	"similarity": "MSM",
+	"tid_col": "tid",
+	"label_col": "label",
+	"attributes": {
+		"poi": {
+			"type": "INTEGER",
+			"distance_function": "abs(x - y)",
+			"weight": 0.5,
+			"threshold": [
+				0.0
+			]
+		}
+	}
+}
