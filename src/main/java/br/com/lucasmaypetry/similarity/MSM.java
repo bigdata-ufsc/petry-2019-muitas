@@ -1,9 +1,6 @@
 package br.com.lucasmaypetry.similarity;
 
-import java.util.Map;
-
 import br.com.lucasmaypetry.base.Application;
-import br.com.lucasmaypetry.base.Feature;
 import br.com.lucasmaypetry.base.Point;
 import br.com.lucasmaypetry.base.Trajectory;
 
@@ -53,13 +50,11 @@ public class MSM implements SimilarityMeasure {
 
 	private double score(Point p1, Point p2) {
 		double total = 0;
-		Map<String, Feature> featuresP1 = p1.getFeatures();
-		Map<String, Feature> featuresP2 = p2.getFeatures();
 
 		for (String feature : this.app.getFeatures()) {
-			total += featuresP1.get(feature).matches(featuresP2.get(feature),
-													   this.app.getDistanceFunction(feature),
-													   this.app.getThreshold(feature))
+			total += p1.getFeature(feature).matches(p2.getFeature(feature),
+													this.app.getDistanceFunction(feature),
+													this.app.getThreshold(feature))
 					* this.app.getWeight(feature);
 		}
 

@@ -1,9 +1,6 @@
 package br.com.lucasmaypetry.similarity;
 
-import java.util.Map;
-
 import br.com.lucasmaypetry.base.Application;
-import br.com.lucasmaypetry.base.Feature;
 import br.com.lucasmaypetry.base.Point;
 import br.com.lucasmaypetry.base.Trajectory;
 
@@ -53,17 +50,15 @@ public class MUITAS implements SimilarityMeasure {
 
 	private double score(Point p1, Point p2) {
 		double total = 0;
-		Map<String, Feature> featuresP1 = p1.getFeatures();
-		Map<String, Feature> featuresP2 = p2.getFeatures();
 
 		for (String compFeature : this.app.getFeatures()) {
-			String[] features = compFeature.split(Application.FEATURE_SEPARATOR);
+			String[] features = compFeature.split("\\" + Application.FEATURE_SEPARATOR);
 			int match = 1;
 
 			for (String f: features) {
-				if (featuresP1.get(f).matches(featuresP2.get(f),
-						   					  this.app.getDistanceFunction(f),
-						   					  this.app.getThreshold(f)) == 0) {
+				if (p1.getFeature(f).matches(p2.getFeature(f),
+						   					 this.app.getDistanceFunction(f),
+						   					 this.app.getThreshold(f)) == 0) {
 					match = 0;
 					break;
 				}

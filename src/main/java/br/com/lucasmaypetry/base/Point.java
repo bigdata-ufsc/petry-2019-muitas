@@ -29,8 +29,8 @@ public class Point {
 		}
 	}
 
-	public Feature getAttribute(String type) {
-		return this.features.get(type);
+	public Feature getFeature(String feature) {
+		return this.features.get(feature);
 	}
 
 	public List<Feature> getAttributesAsList() {

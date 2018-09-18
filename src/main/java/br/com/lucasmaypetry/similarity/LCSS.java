@@ -1,9 +1,6 @@
 package br.com.lucasmaypetry.similarity;
 
-import java.util.Map;
-
 import br.com.lucasmaypetry.base.Application;
-import br.com.lucasmaypetry.base.Feature;
 import br.com.lucasmaypetry.base.Point;
 import br.com.lucasmaypetry.base.Trajectory;
 
@@ -45,11 +42,8 @@ public class LCSS implements SimilarityMeasure {
 	}
 
 	private int matches(Point p1, Point p2) {
-		Map<String, Feature> featuresP1 = p1.getFeatures();
-		Map<String, Feature> featuresP2 = p2.getFeatures();
-
 		for (String feature : this.app.getFeatures()) {
-			if (featuresP1.get(feature).matches(featuresP2.get(feature),
+			if (p1.getFeature(feature).matches(p2.getFeature(feature),
 												  this.app.getDistanceFunction(feature),
 												  this.app.getThreshold(feature)) == 0) {
 				return 0;

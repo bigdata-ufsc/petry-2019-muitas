@@ -32,13 +32,17 @@ public class ExperimentRunner {
 		int idxExt = outputFile.lastIndexOf(".");
 		String outPrefix = outputFile.substring(0, idxExt != -1 ? idxExt : outputFile.length());
 		String ext = idxExt != -1 ? outputFile.substring(idxExt) : ".csv";
-		
+				
 		for(Application app : apps) {
 			executor.submit(() -> {
 				SimilarityMeasure measure = null;
 				String pfx = app.getPrefix() + " - ";
 				Logger.log(Type.INFO, "Running application " + app.getNumber() + "... ");
 				String outFilePrefix = outPrefix + "_" + app.getNumber();
+
+				if(apps.size() == 1) {
+					outFilePrefix = outPrefix;
+				}
 				
 				try {
 					measure = this.config.getSimilarity().getMeasure(app);
