@@ -1,7 +1,6 @@
 package br.com.lucasmaypetry.base.config;
 
 import java.util.List;
-import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -10,13 +9,16 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class AttributeConfiguration {
+public class FeatureConfiguration {
 
 	@JsonProperty("type")
 	private DataType type;
 
 	@JsonProperty("distance_function")
-	private String distance_function;
+	private String distanceFunction;
+
+	@JsonProperty("format")
+	private String format;
 
 	@JsonProperty("weight")
 	private double weight;

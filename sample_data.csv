@@ -1,0 +1,1750 @@
+tid,label,day,hour,poi,price,rating,weather
+126,6,Monday,5,Residence,-999,-999,Clear
+126,6,Monday,23,Food,1,8.2,Clouds
+126,6,Tuesday,0,Residence,-999,-999,Clouds
+126,6,Thursday,17,Food,3,6.6,Clear
+126,6,Thursday,18,Travel & Transport,-999,-999,Clear
+126,6,Thursday,21,Travel & Transport,-999,-999,Clear
+126,6,Thursday,22,Travel & Transport,-999,-999,Clear
+126,6,Thursday,22,Professional & Other Places,-999,-999,Clear
+126,6,Friday,1,Residence,-999,-999,Clear
+126,6,Friday,16,Travel & Transport,-999,-999,Clear
+126,6,Friday,21,Travel & Transport,-999,-999,Clear
+126,6,Friday,22,Travel & Transport,-999,-999,Clear
+126,6,Friday,23,Travel & Transport,-999,-999,Clear
+126,6,Saturday,0,Food,2,8.0,Clear
+126,6,Saturday,1,Travel & Transport,-999,-999,Clear
+126,6,Saturday,2,Residence,-999,-999,Clear
+126,6,Saturday,14,Travel & Transport,-999,-999,Clear
+126,6,Saturday,17,Travel & Transport,-999,-999,Clear
+127,6,Monday,13,Food,1,8.2,Clouds
+127,6,Monday,19,Travel & Transport,-999,-999,Clouds
+127,6,Monday,23,Travel & Transport,-999,-999,Clouds
+127,6,Monday,23,Travel & Transport,-999,-999,Clouds
+127,6,Tuesday,14,Residence,-999,-999,Clear
+127,6,Tuesday,17,Travel & Transport,-999,-999,Clear
+127,6,Tuesday,18,Travel & Transport,-999,-999,Clear
+127,6,Tuesday,21,Travel & Transport,-999,-999,Clear
+127,6,Tuesday,23,Travel & Transport,-999,-999,Clear
+127,6,Thursday,0,Travel & Transport,-999,7.4,Clear
+127,6,Thursday,0,Travel & Transport,-999,5.6,Clear
+127,6,Thursday,1,Travel & Transport,-999,6.3,Clear
+127,6,Thursday,1,Professional & Other Places,-999,-999,Clear
+127,6,Thursday,3,Travel & Transport,-999,5.5,Clear
+127,6,Thursday,3,Food,3,7.9,Clear
+127,6,Thursday,3,Travel & Transport,-999,-999,Clear
+127,6,Friday,18,Residence,-999,-999,Clear
+127,6,Friday,22,Travel & Transport,-999,-999,Clouds
+127,6,Saturday,23,Shop & Service,-999,-999,Clear
+127,6,Sunday,20,Residence,-999,-999,Clouds
+127,6,Sunday,21,Food,1,-999,Clouds
+127,6,Sunday,23,Residence,-999,-999,Clouds
+128,6,Monday,17,Travel & Transport,-999,-999,Clear
+128,6,Monday,19,Outdoors & Recreation,-999,-999,Clear
+128,6,Monday,20,Shop & Service,-999,7.5,Clear
+128,6,Monday,20,Travel & Transport,-999,-999,Clear
+128,6,Monday,21,Travel & Transport,-999,-999,Clear
+128,6,Thursday,2,Travel & Transport,-999,5.5,Clear
+128,6,Thursday,2,Outdoors & Recreation,-999,9.0,Clear
+128,6,Thursday,2,Travel & Transport,-999,-999,Clear
+128,6,Saturday,14,Residence,-999,-999,Clouds
+128,6,Saturday,15,Travel & Transport,-999,-999,Clouds
+128,6,Saturday,17,Professional & Other Places,-999,-999,Clouds
+128,6,Saturday,18,Travel & Transport,-999,6.2,Clouds
+128,6,Sunday,0,Residence,-999,-999,Clouds
+128,6,Sunday,12,Travel & Transport,-999,-999,Fog
+128,6,Sunday,13,Travel & Transport,-999,-999,Fog
+128,6,Sunday,14,College & University,-999,-999,Fog
+128,6,Sunday,20,Outdoors & Recreation,-999,-999,Clouds
+128,6,Sunday,21,Travel & Transport,-999,-999,Clouds
+129,6,Monday,12,Travel & Transport,-999,-999,Fog
+129,6,Monday,13,Professional & Other Places,-999,-999,Clear
+129,6,Monday,14,Food,1,-999,Clear
+129,6,Monday,16,Travel & Transport,-999,5.8,Clear
+129,6,Monday,17,Travel & Transport,-999,-999,Clear
+129,6,Tuesday,21,Outdoors & Recreation,-999,7.0,Clear
+129,6,Tuesday,22,Food,1,4.9,Clear
+129,6,Wednesday,16,Travel & Transport,-999,-999,Clouds
+129,6,Wednesday,17,Travel & Transport,-999,5.7,Clouds
+129,6,Wednesday,18,Travel & Transport,-999,-999,Clouds
+129,6,Wednesday,21,Travel & Transport,-999,-999,Clear
+129,6,Wednesday,22,Travel & Transport,-999,-999,Clear
+129,6,Thursday,16,Professional & Other Places,-999,-999,Clear
+129,6,Thursday,19,Travel & Transport,-999,-999,Clear
+129,6,Thursday,21,Outdoors & Recreation,-999,7.0,Clear
+129,6,Thursday,22,Food,1,4.9,Unknown
+129,6,Thursday,23,Travel & Transport,-999,-999,Clear
+129,6,Sunday,0,Residence,-999,-999,Rain
+129,6,Sunday,9,Professional & Other Places,-999,-999,Clouds
+129,6,Sunday,13,Travel & Transport,-999,-999,Unknown
+129,6,Sunday,16,Food,1,7.1,Clouds
+129,6,Sunday,17,Travel & Transport,-999,-999,Rain
+130,6,Tuesday,0,Residence,-999,-999,Clouds
+130,6,Tuesday,17,Travel & Transport,-999,-999,Clouds
+130,6,Tuesday,18,Travel & Transport,-999,-999,Clouds
+130,6,Tuesday,22,Travel & Transport,-999,-999,Clouds
+130,6,Wednesday,19,Travel & Transport,-999,-999,Clear
+130,6,Thursday,4,College & University,-999,-999,Clear
+130,6,Friday,17,Travel & Transport,-999,-999,Clear
+130,6,Friday,20,Travel & Transport,-999,5.3,Clear
+130,6,Friday,21,Travel & Transport,-999,-999,Clear
+130,6,Sunday,11,Travel & Transport,-999,5.0,Clouds
+130,6,Sunday,13,Travel & Transport,-999,-999,Clouds
+130,6,Sunday,19,Travel & Transport,-999,-999,Rain
+130,6,Sunday,20,Professional & Other Places,-999,-999,Clouds
+131,6,Monday,16,Travel & Transport,-999,-999,Clouds
+131,6,Monday,17,Travel & Transport,-999,-999,Clouds
+131,6,Monday,17,Outdoors & Recreation,-999,-999,Clouds
+131,6,Monday,18,Travel & Transport,-999,-999,Clouds
+131,6,Tuesday,5,Travel & Transport,-999,-999,Rain
+131,6,Tuesday,17,Travel & Transport,-999,-999,Clouds
+131,6,Tuesday,19,Travel & Transport,-999,-999,Clouds
+131,6,Tuesday,20,Travel & Transport,-999,-999,Clouds
+131,6,Tuesday,21,Shop & Service,-999,7.0,Clouds
+131,6,Tuesday,23,Food,1,8.2,Clouds
+131,6,Wednesday,2,Residence,-999,-999,Clear
+131,6,Wednesday,15,Travel & Transport,-999,-999,Clear
+131,6,Wednesday,17,Travel & Transport,-999,-999,Clear
+131,6,Wednesday,20,Travel & Transport,-999,-999,Clear
+131,6,Wednesday,21,Travel & Transport,-999,-999,Clear
+131,6,Wednesday,23,Travel & Transport,-999,-999,Clear
+131,6,Thursday,17,Travel & Transport,-999,-999,Clouds
+131,6,Friday,16,Professional & Other Places,-999,-999,Clouds
+131,6,Friday,17,Travel & Transport,-999,-999,Clouds
+131,6,Friday,20,Travel & Transport,-999,5.3,Clouds
+131,6,Friday,21,Travel & Transport,-999,-999,Clouds
+131,6,Friday,21,Shop & Service,-999,5.4,Clouds
+131,6,Friday,22,Travel & Transport,-999,-999,Clouds
+132,6,Thursday,3,Residence,-999,-999,Rain
+132,6,Thursday,16,Professional & Other Places,-999,-999,Clouds
+132,6,Thursday,17,Travel & Transport,-999,-999,Clouds
+132,6,Thursday,19,Travel & Transport,-999,5.3,Clouds
+132,6,Friday,0,Residence,-999,-999,Clouds
+132,6,Friday,19,Travel & Transport,-999,-999,Clear
+132,6,Friday,22,Professional & Other Places,-999,-999,Clear
+132,6,Friday,22,Travel & Transport,-999,-999,Clear
+132,6,Saturday,17,Residence,-999,-999,Clouds
+132,6,Sunday,18,Travel & Transport,-999,-999,Clear
+132,6,Sunday,23,Residence,-999,-999,Clear
+133,6,Monday,13,Residence,-999,-999,Clear
+133,6,Monday,15,Travel & Transport,-999,-999,Clear
+133,6,Monday,20,Travel & Transport,-999,-999,Clouds
+133,6,Friday,16,Travel & Transport,-999,5.1,Clear
+133,6,Friday,17,Travel & Transport,-999,-999,Clear
+133,6,Friday,17,Travel & Transport,-999,-999,Clear
+133,6,Friday,19,Travel & Transport,-999,5.0,Clear
+133,6,Saturday,3,Food,1,-999,Clear
+133,6,Saturday,4,Residence,-999,-999,Clear
+133,6,Sunday,8,Residence,-999,-999,Clouds
+134,6,Monday,1,Professional & Other Places,-999,-999,Clouds
+134,6,Monday,5,Travel & Transport,-999,-999,Clouds
+134,6,Monday,7,Travel & Transport,-999,-999,Clear
+134,6,Monday,8,Travel & Transport,-999,-999,Clear
+134,6,Monday,20,Travel & Transport,-999,-999,Clear
+134,6,Tuesday,3,Travel & Transport,-999,-999,Clear
+134,6,Tuesday,20,Travel & Transport,-999,-999,Clear
+134,6,Wednesday,3,Travel & Transport,-999,-999,Clouds
+134,6,Wednesday,4,Travel & Transport,-999,-999,Clouds
+134,6,Wednesday,4,Residence,-999,-999,Clouds
+134,6,Wednesday,18,Travel & Transport,-999,-999,Clouds
+134,6,Wednesday,22,Travel & Transport,-999,-999,Clear
+134,6,Thursday,1,Travel & Transport,-999,-999,Clear
+134,6,Thursday,3,Outdoors & Recreation,-999,9.0,Clear
+134,6,Thursday,4,Food,1,-999,Clear
+134,6,Thursday,22,Travel & Transport,-999,-999,Clear
+134,6,Friday,2,Professional & Other Places,-999,-999,Clear
+134,6,Friday,4,Travel & Transport,-999,-999,Clear
+134,6,Saturday,8,Travel & Transport,-999,-999,Clouds
+134,6,Sunday,1,Outdoors & Recreation,-999,9.0,Clouds
+134,6,Sunday,22,Food,1,5.4,Clouds
+134,6,Sunday,23,Travel & Transport,-999,-999,Clouds
+135,6,Monday,2,Professional & Other Places,-999,-999,Clouds
+135,6,Monday,3,Travel & Transport,-999,-999,Clouds
+135,6,Monday,23,Travel & Transport,-999,-999,Clouds
+135,6,Tuesday,1,Travel & Transport,-999,-999,Clouds
+135,6,Tuesday,2,Professional & Other Places,-999,-999,Rain
+135,6,Tuesday,4,Travel & Transport,-999,-999,Rain
+135,6,Wednesday,5,Travel & Transport,-999,-999,Clouds
+135,6,Wednesday,5,Travel & Transport,-999,-999,Clouds
+135,6,Wednesday,7,Travel & Transport,-999,-999,Clouds
+135,6,Wednesday,7,Travel & Transport,-999,-999,Rain
+135,6,Wednesday,9,Travel & Transport,-999,-999,Rain
+135,6,Thursday,3,Travel & Transport,-999,-999,Clear
+135,6,Thursday,4,Residence,-999,-999,Clouds
+135,6,Friday,0,Travel & Transport,-999,-999,Clouds
+137,6,Tuesday,18,Residence,-999,-999,Fog
+137,6,Tuesday,20,Travel & Transport,-999,-999,Clouds
+137,6,Thursday,4,Travel & Transport,-999,-999,Rain
+137,6,Thursday,6,Residence,-999,-999,Rain
+137,6,Friday,2,Professional & Other Places,-999,-999,Clear
+137,6,Friday,3,Food,2,8.6,Clouds
+137,6,Friday,4,Food,1,5.3,Clear
+137,6,Friday,5,Travel & Transport,-999,-999,Clear
+137,6,Friday,5,Travel & Transport,-999,-999,Clear
+137,6,Friday,7,Travel & Transport,-999,-999,Clouds
+137,6,Friday,9,Residence,-999,-999,Clouds
+137,6,Friday,18,Residence,-999,-999,Clear
+137,6,Saturday,15,Professional & Other Places,-999,-999,Clouds
+137,6,Saturday,16,Travel & Transport,-999,-999,Clouds
+137,6,Saturday,19,Travel & Transport,-999,-999,Clouds
+137,6,Saturday,19,Travel & Transport,-999,5.1,Clouds
+137,6,Saturday,21,Food,1,7.9,Fog
+137,6,Saturday,23,Travel & Transport,-999,-999,Snow
+137,6,Sunday,0,Travel & Transport,-999,-999,Fog
+138,6,Monday,13,Residence,-999,-999,Clouds
+138,6,Monday,21,Travel & Transport,-999,-999,Clouds
+138,6,Tuesday,1,Travel & Transport,-999,-999,Clouds
+138,6,Tuesday,3,Professional & Other Places,-999,-999,Fog
+138,6,Tuesday,4,Travel & Transport,-999,-999,Snow
+138,6,Tuesday,5,Travel & Transport,-999,-999,Snow
+138,6,Tuesday,6,Food,1,9.0,Snow
+138,6,Tuesday,7,Travel & Transport,-999,-999,Fog
+138,6,Tuesday,8,Travel & Transport,-999,-999,Fog
+138,6,Wednesday,23,Travel & Transport,-999,-999,Clear
+138,6,Thursday,0,Travel & Transport,-999,5.9,Clear
+138,6,Thursday,4,Food,1,4.9,Clear
+138,6,Thursday,5,Travel & Transport,-999,6.2,Clear
+138,6,Thursday,6,Residence,-999,-999,Clear
+138,6,Friday,0,Travel & Transport,-999,-999,Clouds
+138,6,Friday,2,Professional & Other Places,-999,-999,Clouds
+138,6,Friday,3,Travel & Transport,-999,-999,Clouds
+138,6,Friday,5,Travel & Transport,-999,-999,Clouds
+139,6,Monday,0,Travel & Transport,-999,-999,Clear
+139,6,Monday,2,Professional & Other Places,-999,-999,Clouds
+139,6,Monday,3,Travel & Transport,-999,-999,Clouds
+139,6,Monday,4,Travel & Transport,-999,-999,Clouds
+139,6,Monday,20,Professional & Other Places,-999,-999,Clouds
+139,6,Monday,20,Travel & Transport,-999,-999,Clouds
+139,6,Monday,21,Travel & Transport,-999,-999,Clouds
+139,6,Tuesday,4,Travel & Transport,-999,6.2,Clouds
+139,6,Wednesday,0,Residence,-999,-999,Clear
+139,6,Wednesday,20,Food,1,-999,Clouds
+139,6,Wednesday,21,Travel & Transport,-999,-999,Clouds
+139,6,Wednesday,23,Shop & Service,-999,9.5,Clouds
+139,6,Thursday,1,Travel & Transport,-999,-999,Snow
+139,6,Thursday,3,Travel & Transport,-999,-999,Clouds
+139,6,Thursday,4,Food,1,8.2,Clouds
+141,7,Monday,12,Food,1,7.9,Clouds
+141,7,Monday,14,Shop & Service,-999,8.8,Clouds
+141,7,Monday,18,Shop & Service,-999,7.7,Clouds
+141,7,Monday,19,Shop & Service,-999,6.7,Clouds
+141,7,Wednesday,9,Food,1,8.7,Clouds
+141,7,Wednesday,9,Food,2,-999,Clouds
+141,7,Wednesday,19,Shop & Service,-999,-999,Clouds
+141,7,Wednesday,20,Food,1,6.3,Clouds
+141,7,Thursday,18,Food,1,7.1,Clouds
+141,7,Thursday,19,Shop & Service,-999,-999,Clouds
+141,7,Friday,9,Food,1,8.7,Clear
+141,7,Friday,20,Arts & Entertainment,-999,9.2,Clear
+141,7,Saturday,10,Shop & Service,-999,-999,Clear
+141,7,Saturday,11,Food,2,-999,Clear
+141,7,Saturday,20,Food,2,8.7,Clear
+141,7,Sunday,10,Food,1,8.8,Clear
+141,7,Sunday,12,Shop & Service,-999,8.8,Clouds
+141,7,Sunday,13,Outdoors & Recreation,-999,-999,Clouds
+142,7,Monday,7,Professional & Other Places,-999,-999,Clear
+142,7,Monday,8,Outdoors & Recreation,-999,8.0,Clear
+142,7,Monday,16,Food,1,8.8,Clear
+142,7,Tuesday,7,Professional & Other Places,-999,-999,Clear
+142,7,Tuesday,8,Outdoors & Recreation,-999,8.0,Clear
+142,7,Tuesday,10,Shop & Service,-999,8.8,Clear
+142,7,Tuesday,21,Outdoors & Recreation,-999,8.0,Clear
+142,7,Wednesday,9,Food,1,8.7,Clear
+142,7,Wednesday,19,Shop & Service,-999,8.5,Clouds
+142,7,Wednesday,19,Food,2,-999,Clouds
+142,7,Thursday,8,Professional & Other Places,-999,-999,Fog
+142,7,Thursday,9,Shop & Service,-999,8.8,Clouds
+142,7,Thursday,9,Food,1,8.8,Clouds
+142,7,Thursday,19,Arts & Entertainment,-999,9.3,Clear
+142,7,Thursday,22,Nightlife Spot,2,9.1,Clear
+142,7,Friday,8,Professional & Other Places,-999,-999,Clear
+142,7,Friday,9,Food,1,8.8,Clear
+142,7,Friday,14,Food,1,8.6,Clouds
+142,7,Friday,22,Nightlife Spot,2,8.0,Clouds
+142,7,Saturday,8,Food,2,8.5,Clouds
+142,7,Sunday,11,Food,2,8.2,Rain
+142,7,Sunday,13,Shop & Service,-999,8.9,Rain
+142,7,Sunday,14,Outdoors & Recreation,-999,7.9,Rain
+142,7,Sunday,14,Food,1,8.7,Rain
+142,7,Sunday,17,Food,1,-999,Rain
+143,7,Monday,7,Professional & Other Places,-999,-999,Clouds
+143,7,Tuesday,8,Professional & Other Places,-999,-999,Clear
+143,7,Tuesday,15,Food,2,-999,Clouds
+143,7,Wednesday,9,Outdoors & Recreation,-999,8.0,Clouds
+143,7,Wednesday,10,Food,1,8.8,Clouds
+143,7,Thursday,8,Shop & Service,-999,8.9,Clouds
+143,7,Thursday,9,Shop & Service,-999,8.2,Clouds
+143,7,Friday,7,Professional & Other Places,-999,-999,Clouds
+143,7,Friday,19,Outdoors & Recreation,-999,8.0,Clear
+143,7,Saturday,10,Shop & Service,-999,-999,Clear
+143,7,Saturday,18,Food,2,8.7,Clear
+143,7,Saturday,21,Nightlife Spot,2,8.8,Clear
+143,7,Sunday,16,Food,2,8.4,Clear
+144,7,Tuesday,22,Food,3,8.8,Clear
+144,7,Thursday,8,Food,1,-999,Clouds
+144,7,Thursday,10,Professional & Other Places,-999,-999,Clouds
+144,7,Thursday,14,Shop & Service,-999,5.0,Clouds
+144,7,Thursday,14,Food,1,8.8,Clouds
+144,7,Thursday,20,Outdoors & Recreation,-999,8.0,Clouds
+144,7,Friday,8,Food,1,-999,Clouds
+144,7,Friday,12,Food,2,-999,Clouds
+144,7,Friday,17,Shop & Service,-999,8.0,Clear
+144,7,Friday,18,Arts & Entertainment,-999,-999,Clear
+144,7,Friday,20,Nightlife Spot,2,-999,Fog
+144,7,Saturday,7,Outdoors & Recreation,-999,-999,Clouds
+144,7,Saturday,19,Shop & Service,-999,-999,Clouds
+144,7,Sunday,15,Food,2,8.4,Clear
+144,7,Sunday,19,Food,2,9.0,Clear
+145,7,Monday,7,Professional & Other Places,-999,-999,Clouds
+145,7,Monday,8,Shop & Service,-999,8.9,Clouds
+145,7,Monday,9,Shop & Service,-999,8.2,Clouds
+145,7,Monday,16,Food,1,8.6,Clouds
+145,7,Tuesday,9,Outdoors & Recreation,-999,8.0,Clouds
+145,7,Tuesday,10,Shop & Service,-999,8.1,Clouds
+145,7,Tuesday,12,Food,2,-999,Clouds
+145,7,Tuesday,15,Food,1,8.8,Clouds
+145,7,Wednesday,8,Food,1,-999,Rain
+145,7,Wednesday,8,Professional & Other Places,-999,-999,Rain
+145,7,Wednesday,9,Food,1,8.7,Rain
+145,7,Wednesday,19,Food,2,-999,Fog
+145,7,Wednesday,20,Outdoors & Recreation,-999,8.0,Clouds
+145,7,Thursday,13,Food,2,-999,Clouds
+145,7,Thursday,18,Food,3,-999,Clear
+145,7,Thursday,20,Food,2,8.9,Clear
+145,7,Friday,8,Food,1,8.7,Clear
+145,7,Friday,14,Food,1,8.8,Clouds
+145,7,Friday,17,Nightlife Spot,3,-999,Clear
+146,7,Monday,7,Professional & Other Places,-999,-999,Clouds
+146,7,Monday,8,Outdoors & Recreation,-999,8.0,Clouds
+146,7,Monday,12,Food,2,-999,Clouds
+146,7,Monday,15,Food,1,8.8,Clouds
+146,7,Tuesday,8,Professional & Other Places,-999,-999,Clouds
+146,7,Tuesday,8,Food,1,-999,Clouds
+146,7,Tuesday,9,Shop & Service,-999,-999,Clouds
+146,7,Wednesday,20,Travel & Transport,-999,7.9,Clear
+146,7,Friday,7,Professional & Other Places,-999,-999,Clear
+146,7,Friday,8,Food,2,7.4,Clear
+146,7,Friday,10,Arts & Entertainment,-999,9.5,Clear
+146,7,Friday,17,Food,3,9.4,Clear
+146,7,Friday,19,Food,1,9.0,Clear
+146,7,Friday,20,Outdoors & Recreation,-999,8.0,Clear
+148,7,Monday,10,Food,1,8.8,Clear
+148,7,Monday,11,Food,2,-999,Clear
+148,7,Tuesday,8,Food,1,8.7,Clear
+148,7,Tuesday,16,Shop & Service,-999,-999,Clear
+148,7,Thursday,13,Shop & Service,-999,8.0,Clear
+148,7,Friday,7,Professional & Other Places,-999,-999,Clear
+148,7,Saturday,20,Nightlife Spot,2,7.9,Clear
+148,7,Saturday,22,Nightlife Spot,2,6.8,Clear
+148,7,Sunday,9,College & University,-999,-999,Clear
+148,7,Sunday,12,Food,2,6.6,Clear
+148,7,Sunday,21,Arts & Entertainment,-999,8.7,Clear
+149,7,Monday,7,Professional & Other Places,-999,-999,Clouds
+149,7,Monday,20,Outdoors & Recreation,-999,8.0,Clouds
+149,7,Wednesday,8,Professional & Other Places,-999,-999,Clouds
+149,7,Wednesday,9,Food,1,8.7,Clouds
+149,7,Wednesday,14,Food,1,8.8,Clouds
+149,7,Thursday,10,Food,1,8.8,Clear
+149,7,Friday,8,Professional & Other Places,-999,-999,Clear
+149,7,Saturday,10,Shop & Service,-999,-999,Clouds
+149,7,Saturday,12,Food,1,8.8,Clouds
+149,7,Saturday,13,Shop & Service,-999,-999,Clouds
+149,7,Saturday,13,Food,2,-999,Clouds
+149,7,Saturday,13,Food,1,7.9,Clouds
+149,7,Sunday,18,Outdoors & Recreation,-999,8.0,Clouds
+152,7,Tuesday,9,Food,1,8.8,Clear
+152,7,Tuesday,9,Food,2,-999,Clear
+152,7,Tuesday,21,Outdoors & Recreation,-999,-999,Clear
+152,7,Thursday,9,Food,1,8.8,Clear
+152,7,Thursday,20,Outdoors & Recreation,-999,8.0,Clear
+152,7,Thursday,23,Arts & Entertainment,-999,8.7,Clear
+152,7,Friday,21,Outdoors & Recreation,-999,8.0,Clear
+152,7,Saturday,9,Shop & Service,-999,9.4,Clear
+152,7,Saturday,10,Outdoors & Recreation,-999,8.0,Clear
+152,7,Saturday,17,Arts & Entertainment,-999,8.2,Clear
+152,7,Sunday,11,Food,1,8.7,Clouds
+152,7,Sunday,12,Food,2,8.2,Clear
+153,7,Monday,8,Outdoors & Recreation,-999,8.0,Clouds
+153,7,Monday,10,Food,1,8.8,Clear
+153,7,Thursday,12,Food,2,8.4,Clear
+153,7,Thursday,21,Food,1,-999,Clear
+153,7,Thursday,21,Outdoors & Recreation,-999,9.4,Clear
+153,7,Thursday,21,Nightlife Spot,2,7.7,Clear
+153,7,Friday,11,Food,1,8.8,Clear
+153,7,Friday,11,Food,2,-999,Clear
+153,7,Friday,11,Food,2,8.4,Clear
+153,7,Friday,19,Arts & Entertainment,-999,7.2,Clear
+153,7,Sunday,13,Food,1,8.8,Clouds
+170,7,Monday,18,Food,1,8.8,Clear
+170,7,Monday,19,Outdoors & Recreation,-999,8.0,Clear
+170,7,Monday,22,Food,2,9.3,Clear
+170,7,Tuesday,8,Professional & Other Places,-999,-999,Rain
+170,7,Tuesday,9,Food,1,8.8,Clouds
+170,7,Wednesday,19,Arts & Entertainment,-999,6.9,Clear
+170,7,Friday,8,Professional & Other Places,-999,-999,Clouds
+170,7,Friday,13,Food,1,7.9,Rain
+170,7,Friday,17,Food,4,-999,Rain
+170,7,Sunday,10,Shop & Service,-999,-999,Clouds
+170,7,Sunday,15,Food,1,7.8,Rain
+170,7,Sunday,17,Food,1,8.8,Clouds
+177,7,Wednesday,9,Food,1,-999,Clouds
+177,7,Wednesday,9,Arts & Entertainment,-999,7.1,Clouds
+177,7,Wednesday,15,Shop & Service,-999,-999,Fog
+177,7,Friday,8,Food,1,8.7,Clouds
+177,7,Friday,12,Food,1,8.8,Clouds
+177,7,Friday,12,Shop & Service,-999,5.8,Clouds
+177,7,Friday,17,Arts & Entertainment,-999,8.7,Clouds
+177,7,Saturday,9,Food,1,8.7,Clear
+177,7,Sunday,7,Food,1,8.7,Clouds
+177,7,Sunday,10,Shop & Service,-999,-999,Clouds
+285,12,Tuesday,17,Shop & Service,-999,5.3,Clear
+285,12,Wednesday,7,Food,1,-999,Clouds
+285,12,Wednesday,18,Shop & Service,-999,-999,Clear
+285,12,Wednesday,19,Shop & Service,-999,5.3,Clear
+285,12,Thursday,7,Food,1,-999,Clear
+285,12,Friday,11,Shop & Service,-999,6.7,Clear
+285,12,Saturday,16,Food,1,6.8,Clear
+285,12,Sunday,11,Food,1,-999,Clear
+285,12,Sunday,13,Food,2,-999,Clear
+285,12,Sunday,17,Shop & Service,-999,5.3,Clear
+286,12,Monday,18,Food,1,-999,Clouds
+286,12,Monday,19,Shop & Service,-999,5.3,Clouds
+286,12,Tuesday,7,Food,1,-999,Clear
+286,12,Tuesday,18,Shop & Service,-999,6.7,Clouds
+286,12,Wednesday,6,Food,1,-999,Clouds
+286,12,Wednesday,19,Shop & Service,-999,5.3,Clouds
+286,12,Thursday,8,Food,1,5.7,Clear
+286,12,Thursday,17,Travel & Transport,-999,-999,Clouds
+286,12,Thursday,18,Shop & Service,-999,-999,Clouds
+286,12,Friday,7,Food,1,-999,Clear
+286,12,Friday,18,Shop & Service,-999,7.0,Clear
+286,12,Friday,18,Shop & Service,-999,8.3,Clear
+286,12,Friday,18,Food,1,6.6,Clear
+286,12,Saturday,6,Food,1,7.0,Clear
+286,12,Saturday,7,Travel & Transport,-999,-999,Clear
+286,12,Saturday,16,Shop & Service,-999,5.5,Clear
+286,12,Saturday,17,Shop & Service,-999,6.7,Clear
+286,12,Saturday,19,Food,1,-999,Clear
+286,12,Saturday,20,Food,1,7.1,Clear
+286,12,Saturday,21,Professional & Other Places,-999,-999,Clouds
+286,12,Sunday,10,Shop & Service,-999,6.7,Clear
+286,12,Sunday,12,Shop & Service,-999,6.7,Clouds
+286,12,Sunday,12,Food,2,-999,Clouds
+286,12,Sunday,13,Shop & Service,-999,7.6,Clouds
+286,12,Sunday,16,Food,1,7.6,Clouds
+286,12,Sunday,16,Shop & Service,-999,5.3,Clouds
+286,12,Sunday,17,Shop & Service,-999,6.3,Clear
+287,12,Monday,7,Food,1,5.7,Clear
+287,12,Monday,17,Travel & Transport,-999,-999,Clear
+287,12,Tuesday,7,Food,1,-999,Clear
+287,12,Tuesday,17,Travel & Transport,-999,-999,Clear
+287,12,Tuesday,18,Shop & Service,-999,6.7,Clear
+287,12,Tuesday,18,Shop & Service,-999,-999,Clear
+287,12,Wednesday,18,Travel & Transport,-999,-999,Clouds
+287,12,Wednesday,18,Shop & Service,-999,6.7,Clouds
+287,12,Wednesday,18,Food,2,5.8,Clouds
+287,12,Thursday,18,Travel & Transport,-999,-999,Clear
+287,12,Thursday,19,Shop & Service,-999,5.3,Clear
+287,12,Friday,7,Food,1,-999,Clear
+287,12,Friday,17,Travel & Transport,-999,-999,Clouds
+287,12,Friday,20,Food,2,-999,Clouds
+287,12,Saturday,6,Food,1,7.0,Clouds
+287,12,Saturday,14,Food,1,7.1,Clouds
+287,12,Saturday,15,Shop & Service,-999,6.7,Clear
+287,12,Sunday,9,Shop & Service,-999,6.7,Clouds
+287,12,Sunday,15,Shop & Service,-999,7.2,Rain
+287,12,Sunday,16,Shop & Service,-999,7.7,Rain
+287,12,Sunday,16,Shop & Service,-999,5.3,Rain
+288,12,Monday,6,Travel & Transport,-999,-999,Clouds
+288,12,Monday,19,Shop & Service,-999,6.7,Clouds
+288,12,Tuesday,7,Travel & Transport,-999,-999,Clouds
+288,12,Tuesday,18,Shop & Service,-999,-999,Clouds
+288,12,Tuesday,18,Food,1,-999,Clouds
+288,12,Tuesday,19,Shop & Service,-999,-999,Clouds
+288,12,Wednesday,7,Food,1,-999,Clear
+288,12,Wednesday,18,Shop & Service,-999,-999,Clouds
+288,12,Wednesday,18,Shop & Service,-999,6.7,Clouds
+288,12,Wednesday,19,Food,1,-999,Clouds
+288,12,Wednesday,19,Shop & Service,-999,5.3,Clear
+288,12,Thursday,6,Food,1,-999,Clouds
+288,12,Friday,7,Food,1,-999,Clouds
+288,12,Friday,18,Food,1,-999,Clear
+288,12,Saturday,6,Food,1,7.0,Clear
+288,12,Saturday,7,Travel & Transport,-999,-999,Clear
+288,12,Saturday,14,Food,1,7.9,Clear
+288,12,Saturday,14,Food,1,6.6,Clear
+288,12,Saturday,15,Professional & Other Places,-999,-999,Clear
+288,12,Saturday,17,Shop & Service,-999,-999,Clear
+288,12,Saturday,20,Food,2,7.3,Clear
+288,12,Saturday,21,Shop & Service,-999,6.7,Clear
+288,12,Sunday,11,Shop & Service,-999,6.7,Clear
+288,12,Sunday,11,Food,1,8.8,Clear
+288,12,Sunday,13,Shop & Service,-999,6.0,Clear
+288,12,Sunday,14,Shop & Service,-999,6.7,Clear
+288,12,Sunday,17,Shop & Service,-999,5.3,Clear
+289,12,Tuesday,18,Food,1,6.8,Clear
+289,12,Thursday,6,Food,1,-999,Clouds
+289,12,Thursday,18,Travel & Transport,-999,-999,Fog
+289,12,Thursday,19,Shop & Service,-999,-999,Clouds
+289,12,Thursday,19,Shop & Service,-999,5.3,Clouds
+289,12,Friday,16,Shop & Service,-999,8.6,Clear
+289,12,Friday,17,Shop & Service,-999,6.9,Clear
+289,12,Friday,17,Shop & Service,-999,7.1,Clear
+289,12,Friday,18,Food,1,-999,Clear
+289,12,Friday,19,Food,1,7.9,Fog
+289,12,Friday,20,Shop & Service,-999,9.0,Clear
+289,12,Saturday,6,Food,1,7.0,Clouds
+289,12,Saturday,7,Travel & Transport,-999,-999,Clouds
+289,12,Saturday,14,Arts & Entertainment,-999,9.0,Clouds
+289,12,Saturday,18,Professional & Other Places,-999,-999,Clouds
+289,12,Sunday,12,Shop & Service,-999,6.7,Clouds
+289,12,Sunday,13,Food,1,6.8,Clouds
+289,12,Sunday,14,Shop & Service,-999,6.5,Clouds
+289,12,Sunday,16,Food,1,7.0,Clear
+289,12,Sunday,17,Shop & Service,-999,6.3,Clear
+289,12,Sunday,17,Shop & Service,-999,5.3,Clear
+290,12,Monday,17,Shop & Service,-999,6.7,Rain
+290,12,Tuesday,6,Food,1,-999,Clouds
+290,12,Tuesday,17,Travel & Transport,-999,-999,Clouds
+290,12,Tuesday,18,Shop & Service,-999,-999,Clouds
+290,12,Tuesday,19,Shop & Service,-999,5.3,Clouds
+290,12,Tuesday,20,Food,2,5.8,Clouds
+290,12,Wednesday,6,Food,1,-999,Rain
+290,12,Wednesday,18,Shop & Service,-999,6.7,Fog
+290,12,Wednesday,19,Food,1,-999,Fog
+290,12,Wednesday,19,Shop & Service,-999,-999,Clouds
+290,12,Thursday,21,Travel & Transport,-999,-999,Clear
+290,12,Friday,7,Travel & Transport,-999,-999,Clear
+290,12,Friday,7,Food,1,-999,Clear
+290,12,Friday,18,Shop & Service,-999,-999,Clear
+290,12,Friday,18,Food,1,6.8,Clear
+290,12,Saturday,6,Food,1,7.0,Clear
+290,12,Saturday,7,Travel & Transport,-999,-999,Clear
+290,12,Saturday,13,Professional & Other Places,-999,-999,Clear
+290,12,Saturday,14,Food,2,8.4,Clear
+290,12,Saturday,15,Food,1,8.7,Clear
+290,12,Saturday,21,Food,2,7.3,Clear
+290,12,Sunday,11,Shop & Service,-999,6.7,Clear
+290,12,Sunday,13,Food,1,-999,Clear
+290,12,Sunday,14,Shop & Service,-999,7.2,Clear
+290,12,Sunday,15,Shop & Service,-999,7.7,Clouds
+290,12,Sunday,16,Food,1,7.0,Clouds
+290,12,Sunday,17,Shop & Service,-999,5.3,Clouds
+290,12,Sunday,18,Food,2,5.8,Clear
+291,12,Monday,6,Food,1,-999,Clouds
+291,12,Monday,18,Shop & Service,-999,6.7,Clouds
+291,12,Monday,18,Shop & Service,-999,-999,Clouds
+291,12,Monday,18,Food,1,-999,Clouds
+291,12,Tuesday,7,Food,1,-999,Rain
+291,12,Tuesday,18,Travel & Transport,-999,-999,Clouds
+291,12,Tuesday,18,Shop & Service,-999,-999,Clouds
+291,12,Tuesday,19,Shop & Service,-999,5.3,Clouds
+291,12,Wednesday,8,Food,1,-999,Clouds
+291,12,Wednesday,18,Shop & Service,-999,6.7,Clear
+291,12,Wednesday,19,Food,2,5.8,Clear
+291,12,Thursday,6,Food,1,-999,Clear
+291,12,Thursday,17,Travel & Transport,-999,-999,Clear
+291,12,Thursday,19,Shop & Service,-999,5.3,Clear
+291,12,Friday,7,Food,1,-999,Clear
+291,12,Friday,20,Food,1,8.5,Clear
+291,12,Friday,20,Food,1,8.3,Clear
+291,12,Saturday,6,Food,1,7.0,Clear
+291,12,Saturday,7,Travel & Transport,-999,-999,Clear
+291,12,Saturday,14,Food,1,-999,Clear
+291,12,Saturday,15,Shop & Service,-999,6.7,Clear
+292,12,Monday,7,Food,1,-999,Clouds
+292,12,Monday,18,Travel & Transport,-999,-999,Clouds
+292,12,Tuesday,6,Travel & Transport,-999,-999,Rain
+292,12,Tuesday,7,Food,1,-999,Rain
+292,12,Wednesday,18,Shop & Service,-999,6.5,Clear
+292,12,Friday,9,Food,1,-999,Clouds
+292,12,Friday,17,Travel & Transport,-999,-999,Clouds
+292,12,Saturday,19,Food,1,5.4,Clouds
+292,12,Saturday,19,Shop & Service,-999,6.4,Clouds
+292,12,Saturday,21,Food,1,7.5,Clear
+292,12,Sunday,9,Shop & Service,-999,6.7,Clear
+292,12,Sunday,19,Shop & Service,-999,6.4,Clouds
+292,12,Sunday,21,Shop & Service,-999,6.7,Clouds
+293,12,Monday,10,Shop & Service,-999,6.7,Clear
+293,12,Monday,13,Food,2,7.2,Clear
+293,12,Monday,13,Food,1,7.4,Clear
+293,12,Monday,14,Shop & Service,-999,6.8,Clear
+293,12,Monday,19,Shop & Service,-999,6.5,Clear
+293,12,Monday,20,Food,1,6.8,Clear
+293,12,Tuesday,19,Shop & Service,-999,-999,Clear
+293,12,Tuesday,20,Shop & Service,-999,5.3,Clouds
+293,12,Thursday,17,Travel & Transport,-999,-999,Clear
+293,12,Friday,7,Food,1,-999,Clear
+293,12,Saturday,18,Shop & Service,-999,6.7,Clear
+293,12,Saturday,21,Food,2,7.0,Clear
+293,12,Sunday,9,Shop & Service,-999,6.7,Clear
+293,12,Sunday,15,Shop & Service,-999,5.3,Clouds
+293,12,Sunday,18,Food,2,5.8,Clouds
+294,12,Monday,7,Food,1,-999,Clouds
+294,12,Monday,18,Travel & Transport,-999,-999,Clouds
+294,12,Monday,19,Food,1,-999,Clouds
+294,12,Tuesday,6,Food,1,-999,Clouds
+294,12,Wednesday,6,Food,1,-999,Clouds
+294,12,Wednesday,18,Travel & Transport,-999,-999,Clouds
+294,12,Wednesday,19,Food,2,5.8,Rain
+294,12,Thursday,6,Food,1,-999,Clear
+294,12,Thursday,17,Travel & Transport,-999,-999,Clouds
+294,12,Friday,7,Travel & Transport,-999,-999,Clear
+294,12,Friday,7,Food,1,-999,Clear
+294,12,Friday,20,Food,2,-999,Clouds
+294,12,Saturday,6,Food,1,7.0,Clear
+294,12,Saturday,7,Travel & Transport,-999,-999,Clear
+294,12,Saturday,14,Travel & Transport,-999,-999,Clouds
+294,12,Saturday,16,Food,1,-999,Clouds
+294,12,Saturday,18,Food,1,6.6,Rain
+294,12,Saturday,19,Shop & Service,-999,-999,Clouds
+294,12,Saturday,20,Food,2,8.3,Clouds
+294,12,Saturday,22,Shop & Service,-999,6.7,Clear
+294,12,Sunday,9,Shop & Service,-999,6.7,Clear
+294,12,Sunday,14,Food,2,8.1,Clouds
+294,12,Sunday,18,Shop & Service,-999,5.3,Clouds
+295,12,Monday,6,Food,1,-999,Clouds
+295,12,Monday,17,Travel & Transport,-999,-999,Clouds
+295,12,Monday,18,Shop & Service,-999,6.7,Clouds
+295,12,Monday,18,Food,1,-999,Clouds
+295,12,Tuesday,6,Travel & Transport,-999,-999,Clouds
+295,12,Tuesday,7,Food,1,-999,Clouds
+295,12,Tuesday,18,Travel & Transport,-999,-999,Rain
+295,12,Tuesday,18,Shop & Service,-999,6.7,Rain
+295,12,Wednesday,6,Food,1,-999,Clouds
+295,12,Wednesday,18,Shop & Service,-999,6.7,Clouds
+295,12,Wednesday,18,Shop & Service,-999,5.3,Clouds
+295,12,Wednesday,19,Food,2,5.8,Clouds
+309,12,Tuesday,18,Shop & Service,-999,6.2,Clear
+309,12,Wednesday,18,Shop & Service,-999,8.0,Clear
+309,12,Wednesday,20,Food,1,-999,Clear
+309,12,Thursday,16,Shop & Service,-999,6.7,Clear
+309,12,Thursday,18,Shop & Service,-999,6.8,Clear
+309,12,Friday,8,Shop & Service,-999,5.6,Clear
+309,12,Friday,17,Outdoors & Recreation,-999,-999,Clear
+309,12,Saturday,14,Shop & Service,-999,7.5,Clouds
+309,12,Saturday,16,Shop & Service,-999,8.2,Clouds
+309,12,Saturday,17,Food,3,7.8,Clear
+309,12,Saturday,18,Food,2,6.1,Clouds
+309,12,Sunday,16,Food,1,7.7,Clouds
+329,14,Tuesday,18,Outdoors & Recreation,-999,9.6,Clear
+329,14,Wednesday,7,Outdoors & Recreation,-999,9.6,Clouds
+329,14,Wednesday,9,Professional & Other Places,-999,-999,Clear
+329,14,Wednesday,15,Outdoors & Recreation,-999,9.6,Clear
+329,14,Thursday,7,Outdoors & Recreation,-999,9.6,Clear
+329,14,Friday,11,Shop & Service,-999,8.3,Clear
+329,14,Friday,12,Food,1,8.3,Clear
+329,14,Friday,12,Outdoors & Recreation,-999,9.6,Clear
+329,14,Saturday,8,Outdoors & Recreation,-999,9.6,Clear
+329,14,Saturday,12,Shop & Service,-999,9.6,Clear
+329,14,Saturday,12,Shop & Service,-999,5.0,Clear
+329,14,Saturday,16,Outdoors & Recreation,-999,9.6,Clear
+329,14,Sunday,6,Outdoors & Recreation,-999,9.6,Clear
+330,14,Monday,7,Outdoors & Recreation,-999,9.6,Clear
+330,14,Tuesday,6,Outdoors & Recreation,-999,9.6,Clear
+330,14,Tuesday,13,Professional & Other Places,-999,-999,Clouds
+330,14,Wednesday,11,Outdoors & Recreation,-999,9.6,Clouds
+330,14,Thursday,6,Outdoors & Recreation,-999,9.6,Clear
+330,14,Friday,7,Outdoors & Recreation,-999,9.6,Clear
+330,14,Saturday,10,Outdoors & Recreation,-999,9.6,Clear
+330,14,Saturday,18,Outdoors & Recreation,-999,9.6,Clouds
+330,14,Sunday,6,Outdoors & Recreation,-999,9.6,Clouds
+330,14,Sunday,12,Food,2,7.9,Clouds
+330,14,Sunday,14,Outdoors & Recreation,-999,9.6,Clouds
+331,14,Monday,7,Outdoors & Recreation,-999,9.6,Clear
+331,14,Tuesday,7,Outdoors & Recreation,-999,9.6,Clear
+331,14,Tuesday,15,Outdoors & Recreation,-999,9.6,Clear
+331,14,Wednesday,8,Professional & Other Places,-999,-999,Clear
+331,14,Thursday,8,Outdoors & Recreation,-999,9.6,Fog
+331,14,Thursday,14,Outdoors & Recreation,-999,9.6,Clear
+331,14,Thursday,20,Food,2,9.4,Clear
+331,14,Thursday,20,Outdoors & Recreation,-999,9.6,Clear
+331,14,Friday,7,Outdoors & Recreation,-999,9.6,Clear
+331,14,Saturday,8,Outdoors & Recreation,-999,9.6,Clouds
+331,14,Saturday,10,Shop & Service,-999,9.6,Clear
+331,14,Saturday,19,Food,2,8.1,Clear
+331,14,Sunday,8,Outdoors & Recreation,-999,9.6,Clouds
+331,14,Sunday,12,Outdoors & Recreation,-999,9.6,Rain
+332,14,Monday,18,Outdoors & Recreation,-999,9.6,Clouds
+332,14,Tuesday,6,Outdoors & Recreation,-999,9.6,Clouds
+332,14,Wednesday,7,Outdoors & Recreation,-999,9.6,Clear
+332,14,Wednesday,12,Professional & Other Places,-999,-999,Clouds
+332,14,Wednesday,16,Outdoors & Recreation,-999,9.6,Clouds
+332,14,Thursday,7,Outdoors & Recreation,-999,9.6,Clear
+332,14,Friday,8,Outdoors & Recreation,-999,9.6,Clouds
+332,14,Friday,16,Outdoors & Recreation,-999,9.6,Clear
+332,14,Saturday,7,Outdoors & Recreation,-999,9.6,Clear
+332,14,Saturday,20,Outdoors & Recreation,-999,9.6,Clear
+332,14,Sunday,8,Outdoors & Recreation,-999,9.6,Clear
+332,14,Sunday,12,Shop & Service,-999,7.5,Clear
+332,14,Sunday,12,Food,2,9.4,Clear
+334,14,Monday,7,Outdoors & Recreation,-999,9.6,Clouds
+334,14,Tuesday,7,Outdoors & Recreation,-999,9.6,Clouds
+334,14,Tuesday,14,Outdoors & Recreation,-999,9.6,Clouds
+334,14,Wednesday,7,Outdoors & Recreation,-999,9.6,Rain
+334,14,Wednesday,19,Outdoors & Recreation,-999,9.6,Fog
+334,14,Thursday,19,Outdoors & Recreation,-999,9.6,Clouds
+334,14,Friday,7,Outdoors & Recreation,-999,9.6,Clear
+334,14,Friday,14,Food,4,9.1,Clouds
+334,14,Friday,17,Outdoors & Recreation,-999,9.6,Clear
+334,14,Friday,18,Shop & Service,-999,9.5,Clear
+334,14,Saturday,8,Outdoors & Recreation,-999,9.6,Clear
+334,14,Saturday,17,Outdoors & Recreation,-999,9.6,Clear
+334,14,Saturday,19,Nightlife Spot,2,-999,Clear
+334,14,Sunday,7,Outdoors & Recreation,-999,9.6,Clear
+334,14,Sunday,12,Food,3,8.5,Clear
+334,14,Sunday,18,Food,2,9.4,Clear
+335,14,Monday,7,Outdoors & Recreation,-999,9.6,Clouds
+335,14,Monday,8,Outdoors & Recreation,-999,9.6,Clouds
+335,14,Tuesday,9,Outdoors & Recreation,-999,9.6,Clouds
+335,14,Tuesday,12,Outdoors & Recreation,-999,9.6,Rain
+335,14,Tuesday,13,Shop & Service,-999,6.7,Rain
+335,14,Tuesday,14,Arts & Entertainment,-999,9.0,Rain
+335,14,Tuesday,16,Food,2,9.4,Clouds
+335,14,Tuesday,16,Outdoors & Recreation,-999,9.6,Clouds
+335,14,Wednesday,6,Outdoors & Recreation,-999,9.6,Rain
+335,14,Wednesday,13,Outdoors & Recreation,-999,9.6,Clouds
+335,14,Wednesday,19,Food,3,-999,Clear
+335,14,Wednesday,19,Arts & Entertainment,-999,9.3,Clear
+335,14,Thursday,7,Outdoors & Recreation,-999,9.6,Clear
+335,14,Thursday,11,Shop & Service,-999,9.1,Clear
+335,14,Thursday,14,Outdoors & Recreation,-999,9.6,Clear
+335,14,Thursday,19,Outdoors & Recreation,-999,9.6,Clear
+335,14,Friday,10,Outdoors & Recreation,-999,9.6,Clear
+335,14,Friday,11,Outdoors & Recreation,-999,9.6,Clear
+335,14,Friday,17,Shop & Service,-999,9.5,Clear
+335,14,Saturday,10,Outdoors & Recreation,-999,9.6,Clear
+335,14,Saturday,17,Outdoors & Recreation,-999,9.6,Clear
+336,14,Monday,8,Outdoors & Recreation,-999,9.6,Rain
+336,14,Monday,16,Shop & Service,-999,9.5,Clouds
+336,14,Monday,19,Food,3,-999,Clouds
+336,14,Tuesday,6,Outdoors & Recreation,-999,9.6,Rain
+336,14,Tuesday,12,Professional & Other Places,-999,-999,Clouds
+336,14,Wednesday,17,Outdoors & Recreation,-999,9.6,Clear
+336,14,Friday,7,Outdoors & Recreation,-999,9.6,Clouds
+336,14,Friday,13,Food,2,9.4,Clouds
+336,14,Friday,16,Outdoors & Recreation,-999,9.6,Clouds
+336,14,Friday,20,Food,2,-999,Clouds
+336,14,Sunday,7,Outdoors & Recreation,-999,9.6,Clouds
+336,14,Sunday,12,Outdoors & Recreation,-999,9.6,Clear
+336,14,Sunday,14,Outdoors & Recreation,-999,9.7,Clouds
+337,14,Monday,7,Outdoors & Recreation,-999,9.6,Clear
+337,14,Monday,14,Outdoors & Recreation,-999,9.6,Clear
+337,14,Monday,18,Shop & Service,-999,9.5,Clear
+337,14,Monday,18,Outdoors & Recreation,-999,9.6,Clear
+337,14,Tuesday,8,Outdoors & Recreation,-999,9.6,Clear
+337,14,Tuesday,12,Food,2,8.1,Clear
+337,14,Tuesday,13,Outdoors & Recreation,-999,9.6,Clear
+337,14,Tuesday,19,Shop & Service,-999,9.0,Clouds
+337,14,Sunday,8,Outdoors & Recreation,-999,9.6,Clear
+337,14,Sunday,11,Shop & Service,-999,7.5,Clear
+337,14,Sunday,16,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Monday,8,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Monday,19,Food,2,9.4,Clouds
+338,14,Monday,19,Shop & Service,-999,-999,Clouds
+338,14,Tuesday,7,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Wednesday,6,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Wednesday,9,Shop & Service,-999,-999,Clouds
+338,14,Wednesday,14,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Thursday,8,Outdoors & Recreation,-999,9.6,Clear
+338,14,Friday,11,Outdoors & Recreation,-999,9.6,Clear
+338,14,Saturday,7,Outdoors & Recreation,-999,9.6,Clear
+338,14,Saturday,7,Food,1,8.3,Clear
+338,14,Saturday,7,Shop & Service,-999,6.9,Clear
+338,14,Saturday,7,Outdoors & Recreation,-999,9.6,Clear
+338,14,Saturday,18,Arts & Entertainment,-999,7.2,Rain
+338,14,Sunday,7,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Sunday,8,Food,1,8.2,Clear
+338,14,Sunday,11,Outdoors & Recreation,-999,9.6,Clouds
+338,14,Sunday,13,Arts & Entertainment,-999,8.7,Clouds
+338,14,Sunday,16,Food,2,8.8,Clouds
+338,14,Sunday,17,Outdoors & Recreation,-999,9.6,Clouds
+339,14,Monday,7,Outdoors & Recreation,-999,9.6,Clouds
+339,14,Monday,11,Outdoors & Recreation,-999,9.6,Clouds
+339,14,Monday,18,Food,2,9.4,Clouds
+339,14,Tuesday,8,Outdoors & Recreation,-999,9.6,Fog
+339,14,Wednesday,7,Outdoors & Recreation,-999,9.6,Clouds
+339,14,Wednesday,15,Food,1,8.2,Fog
+339,14,Thursday,6,Outdoors & Recreation,-999,9.6,Clear
+339,14,Saturday,16,Food,1,-999,Clear
+339,14,Saturday,16,Outdoors & Recreation,-999,9.6,Clear
+339,14,Saturday,18,Food,2,9.4,Clear
+339,14,Sunday,16,Shop & Service,-999,-999,Clouds
+339,14,Sunday,17,Outdoors & Recreation,-999,9.6,Clear
+342,14,Monday,8,Outdoors & Recreation,-999,9.6,Clear
+342,14,Monday,9,Food,1,8.2,Clear
+342,14,Monday,10,Shop & Service,-999,8.1,Clear
+342,14,Monday,10,Outdoors & Recreation,-999,9.6,Clear
+342,14,Monday,16,Food,1,-999,Clouds
+342,14,Monday,16,Outdoors & Recreation,-999,9.6,Clouds
+342,14,Monday,18,Food,2,9.4,Clear
+342,14,Monday,19,Outdoors & Recreation,-999,9.6,Clear
+342,14,Tuesday,8,Outdoors & Recreation,-999,9.6,Clear
+342,14,Tuesday,13,Outdoors & Recreation,-999,9.6,Clouds
+342,14,Wednesday,6,Outdoors & Recreation,-999,9.6,Rain
+342,14,Wednesday,14,Arts & Entertainment,-999,7.2,Clear
+342,14,Wednesday,18,Outdoors & Recreation,-999,9.6,Clear
+342,14,Thursday,7,Outdoors & Recreation,-999,9.6,Clear
+342,14,Thursday,18,Food,1,8.2,Clear
+342,14,Friday,7,Outdoors & Recreation,-999,9.6,Clear
+342,14,Friday,8,Food,1,8.2,Clear
+342,14,Friday,9,Shop & Service,-999,8.3,Clear
+342,14,Friday,12,Shop & Service,-999,7.6,Clear
+342,14,Friday,12,Outdoors & Recreation,-999,9.6,Clear
+342,14,Friday,18,Food,2,7.9,Clear
+342,14,Saturday,19,Food,1,8.2,Clear
+342,14,Sunday,15,Food,1,8.2,Clear
+343,14,Monday,8,Outdoors & Recreation,-999,9.6,Clouds
+343,14,Tuesday,19,Shop & Service,-999,9.5,Clear
+343,14,Tuesday,19,Food,1,8.2,Clear
+343,14,Wednesday,17,Food,1,8.2,Clouds
+343,14,Wednesday,17,Outdoors & Recreation,-999,9.6,Clouds
+343,14,Thursday,8,Food,1,-999,Clouds
+343,14,Thursday,8,Outdoors & Recreation,-999,9.6,Clouds
+343,14,Thursday,10,Shop & Service,-999,-999,Clouds
+343,14,Thursday,15,Food,1,8.2,Clear
+343,14,Thursday,16,Shop & Service,-999,9.5,Clear
+343,14,Thursday,16,Outdoors & Recreation,-999,9.6,Clear
+343,14,Friday,6,Outdoors & Recreation,-999,9.6,Clear
+343,14,Friday,20,Food,2,9.0,Clear
+343,14,Saturday,6,Outdoors & Recreation,-999,9.6,Clouds
+343,14,Saturday,8,Shop & Service,-999,5.7,Clouds
+343,14,Sunday,9,Outdoors & Recreation,-999,9.6,Clouds
+343,14,Sunday,10,Shop & Service,-999,8.1,Clear
+343,14,Sunday,10,Outdoors & Recreation,-999,9.6,Clear
+343,14,Sunday,12,Professional & Other Places,-999,-999,Clouds
+343,14,Sunday,18,Outdoors & Recreation,-999,9.6,Clouds
+347,14,Monday,8,Outdoors & Recreation,-999,9.6,Clouds
+347,14,Thursday,7,Outdoors & Recreation,-999,9.6,Clear
+347,14,Friday,6,Outdoors & Recreation,-999,9.6,Clouds
+347,14,Friday,12,Food,1,8.2,Rain
+347,14,Friday,19,Food,2,7.6,Clouds
+347,14,Saturday,8,Outdoors & Recreation,-999,9.6,Clouds
+347,14,Saturday,9,Food,1,-999,Clouds
+347,14,Saturday,17,Food,2,8.1,Clear
+347,14,Sunday,7,Outdoors & Recreation,-999,9.6,Clouds
+347,14,Sunday,13,Food,1,8.2,Clouds
+347,14,Sunday,16,Outdoors & Recreation,-999,9.6,Clouds
+354,14,Monday,7,Outdoors & Recreation,-999,9.6,Clear
+354,14,Monday,20,Food,1,8.2,Clear
+354,14,Tuesday,6,Outdoors & Recreation,-999,9.6,Clear
+354,14,Tuesday,19,Food,2,7.9,Clouds
+354,14,Friday,7,Food,1,-999,Clouds
+354,14,Friday,7,Outdoors & Recreation,-999,9.6,Clouds
+354,14,Friday,17,Food,1,8.2,Clouds
+354,14,Saturday,6,Outdoors & Recreation,-999,9.6,Clouds
+354,14,Saturday,10,Food,1,8.2,Clouds
+354,14,Saturday,19,Outdoors & Recreation,-999,9.6,Clouds
+359,14,Monday,8,Outdoors & Recreation,-999,9.6,Clear
+359,14,Tuesday,5,Outdoors & Recreation,-999,9.6,Clouds
+359,14,Wednesday,5,Outdoors & Recreation,-999,9.6,Clouds
+359,14,Wednesday,16,Food,1,8.2,Clear
+359,14,Thursday,7,Outdoors & Recreation,-999,9.6,Clear
+359,14,Friday,7,Outdoors & Recreation,-999,9.6,Clear
+359,14,Saturday,4,Outdoors & Recreation,-999,9.6,Clouds
+359,14,Saturday,8,Food,1,8.3,Clouds
+359,14,Sunday,11,Outdoors & Recreation,-999,9.6,Rain
+359,14,Sunday,17,Food,1,8.2,Unknown
+359,14,Sunday,18,Outdoors & Recreation,-999,9.6,Unknown
+364,14,Monday,5,Outdoors & Recreation,-999,9.6,Clouds
+364,14,Tuesday,6,Outdoors & Recreation,-999,9.6,Clear
+364,14,Wednesday,19,Outdoors & Recreation,-999,9.6,Clear
+364,14,Thursday,13,Food,2,7.5,Clear
+364,14,Friday,5,Outdoors & Recreation,-999,9.6,Clear
+364,14,Friday,10,Shop & Service,-999,8.3,Clear
+364,14,Friday,12,Food,1,8.2,Clouds
+364,14,Saturday,5,Outdoors & Recreation,-999,9.6,Clouds
+364,14,Sunday,5,Outdoors & Recreation,-999,9.6,Clouds
+364,14,Sunday,11,Food,3,8.5,Clouds
+470,19,Monday,19,Residence,-999,-999,Clouds
+470,19,Monday,19,Shop & Service,-999,6.7,Clouds
+470,19,Monday,19,Shop & Service,-999,-999,Clouds
+470,19,Wednesday,11,Shop & Service,-999,6.0,Clouds
+470,19,Wednesday,13,Food,2,8.5,Clouds
+470,19,Wednesday,18,Shop & Service,-999,-999,Clouds
+470,19,Wednesday,19,Shop & Service,-999,-999,Clouds
+470,19,Wednesday,19,Professional & Other Places,-999,-999,Clouds
+470,19,Wednesday,20,Residence,-999,-999,Clouds
+470,19,Thursday,22,Professional & Other Places,-999,-999,Clouds
+470,19,Thursday,22,Professional & Other Places,-999,-999,Clouds
+470,19,Thursday,22,Residence,-999,-999,Clouds
+470,19,Thursday,22,Residence,-999,-999,Clouds
+470,19,Thursday,22,Food,1,7.4,Clouds
+470,19,Friday,9,Professional & Other Places,-999,-999,Clear
+470,19,Friday,9,Professional & Other Places,-999,-999,Clear
+470,19,Friday,13,Shop & Service,-999,7.4,Clear
+470,19,Friday,13,Shop & Service,-999,-999,Clear
+470,19,Friday,18,Residence,-999,-999,Clear
+470,19,Saturday,10,Residence,-999,-999,Clear
+470,19,Saturday,10,Shop & Service,-999,-999,Clear
+470,19,Saturday,11,Professional & Other Places,-999,-999,Clear
+470,19,Saturday,13,Shop & Service,-999,-999,Clear
+470,19,Saturday,14,Professional & Other Places,-999,-999,Clear
+470,19,Saturday,14,Event,-999,-999,Clear
+470,19,Saturday,18,Food,3,8.2,Clouds
+470,19,Saturday,18,Arts & Entertainment,-999,7.7,Clouds
+470,19,Saturday,21,Food,2,6.4,Clouds
+470,19,Sunday,13,Food,2,7.2,Clouds
+471,19,Tuesday,10,Professional & Other Places,-999,-999,Clear
+471,19,Tuesday,10,Professional & Other Places,-999,-999,Clear
+471,19,Tuesday,11,Professional & Other Places,-999,-999,Clear
+471,19,Tuesday,13,Food,1,8.3,Clear
+471,19,Tuesday,13,Shop & Service,-999,-999,Clear
+471,19,Tuesday,14,Shop & Service,-999,8.0,Clear
+471,19,Wednesday,18,Professional & Other Places,-999,-999,Clouds
+471,19,Wednesday,18,Residence,-999,-999,Clouds
+471,19,Wednesday,18,Residence,-999,-999,Clouds
+471,19,Wednesday,18,Shop & Service,-999,-999,Clouds
+471,19,Wednesday,22,Outdoors & Recreation,-999,-999,Clouds
+471,19,Thursday,19,Residence,-999,-999,Clear
+471,19,Thursday,19,Residence,-999,-999,Clear
+471,19,Thursday,19,Residence,-999,-999,Clear
+471,19,Friday,14,Shop & Service,-999,-999,Clouds
+471,19,Friday,14,Shop & Service,-999,-999,Clouds
+471,19,Friday,14,Food,2,7.7,Clouds
+471,19,Friday,14,Food,1,7.7,Clouds
+471,19,Friday,14,Food,1,7.7,Clouds
+471,19,Friday,17,Shop & Service,-999,-999,Clouds
+471,19,Saturday,11,Professional & Other Places,-999,-999,Clear
+471,19,Saturday,11,Shop & Service,-999,-999,Clear
+471,19,Saturday,13,Professional & Other Places,-999,-999,Clear
+471,19,Sunday,9,Arts & Entertainment,-999,-999,Clouds
+471,19,Sunday,10,Food,2,8.0,Rain
+471,19,Sunday,11,Residence,-999,-999,Rain
+472,19,Monday,9,Shop & Service,-999,-999,Clouds
+472,19,Monday,13,Shop & Service,-999,7.0,Clouds
+472,19,Monday,20,Residence,-999,-999,Clouds
+472,19,Tuesday,12,Food,2,8.7,Clouds
+472,19,Tuesday,12,Food,1,-999,Clouds
+472,19,Wednesday,13,Shop & Service,-999,7.4,Clouds
+472,19,Wednesday,21,Shop & Service,-999,6.0,Clear
+472,19,Wednesday,21,Professional & Other Places,-999,-999,Clear
+472,19,Friday,10,Outdoors & Recreation,-999,8.2,Clouds
+472,19,Friday,10,Arts & Entertainment,-999,9.2,Clouds
+472,19,Friday,11,Outdoors & Recreation,-999,-999,Clouds
+472,19,Friday,18,Shop & Service,-999,-999,Clear
+472,19,Friday,19,Shop & Service,-999,7.6,Clear
+472,19,Friday,20,Food,3,8.2,Clear
+472,19,Saturday,10,Food,2,8.8,Clear
+472,19,Saturday,13,Shop & Service,-999,8.8,Clear
+472,19,Saturday,13,Shop & Service,-999,-999,Clear
+472,19,Saturday,13,Shop & Service,-999,6.7,Clear
+472,19,Saturday,19,Arts & Entertainment,-999,7.7,Clear
+472,19,Saturday,21,Food,2,7.4,Clear
+472,19,Sunday,10,Professional & Other Places,-999,-999,Clear
+472,19,Sunday,10,Outdoors & Recreation,-999,7.0,Clear
+472,19,Sunday,12,Food,2,8.7,Clear
+472,19,Sunday,14,Residence,-999,-999,Clear
+473,19,Tuesday,18,Food,1,5.7,Clouds
+473,19,Wednesday,7,Outdoors & Recreation,-999,7.0,Clouds
+473,19,Thursday,9,Residence,-999,-999,Clouds
+473,19,Thursday,9,Professional & Other Places,-999,-999,Clouds
+473,19,Thursday,10,Shop & Service,-999,-999,Clouds
+473,19,Thursday,11,Professional & Other Places,-999,-999,Clouds
+473,19,Thursday,12,Food,2,7.7,Clouds
+473,19,Thursday,22,Food,2,7.9,Clouds
+473,19,Friday,14,Shop & Service,-999,8.1,Clouds
+473,19,Friday,18,Shop & Service,-999,-999,Clear
+473,19,Friday,18,Arts & Entertainment,-999,9.5,Clear
+473,19,Friday,19,Travel & Transport,-999,-999,Clear
+473,19,Friday,19,Food,3,8.9,Clear
+473,19,Saturday,11,Food,1,8.3,Clouds
+473,19,Saturday,12,Shop & Service,-999,-999,Clouds
+473,19,Saturday,13,Residence,-999,-999,Clouds
+473,19,Saturday,14,Shop & Service,-999,7.2,Clouds
+473,19,Saturday,15,Shop & Service,-999,5.4,Fog
+473,19,Saturday,15,Food,2,6.7,Fog
+473,19,Sunday,13,Arts & Entertainment,-999,-999,Clouds
+474,19,Monday,15,Professional & Other Places,-999,-999,Clouds
+474,19,Monday,15,Food,2,8.3,Clouds
+474,19,Tuesday,12,Professional & Other Places,-999,-999,Clouds
+474,19,Tuesday,18,Shop & Service,-999,7.4,Clouds
+474,19,Tuesday,18,Outdoors & Recreation,-999,-999,Clouds
+474,19,Thursday,13,Food,1,7.0,Clouds
+474,19,Thursday,19,Shop & Service,-999,-999,Clear
+474,19,Friday,19,Food,1,5.7,Clear
+474,19,Friday,19,Shop & Service,-999,-999,Clear
+474,19,Friday,21,Residence,-999,-999,Clear
+474,19,Friday,21,Food,3,8.2,Clear
+474,19,Saturday,10,Shop & Service,-999,-999,Clear
+474,19,Saturday,10,Residence,-999,-999,Clear
+474,19,Saturday,11,Shop & Service,-999,-999,Clear
+474,19,Saturday,17,Food,1,-999,Clear
+474,19,Sunday,14,Nightlife Spot,3,7.5,Clear
+475,19,Monday,9,Professional & Other Places,-999,-999,Clouds
+475,19,Monday,9,Professional & Other Places,-999,-999,Clouds
+475,19,Monday,10,Professional & Other Places,-999,-999,Clouds
+475,19,Monday,10,Shop & Service,-999,-999,Clouds
+475,19,Monday,15,Professional & Other Places,-999,-999,Clouds
+475,19,Monday,20,Professional & Other Places,-999,9.4,Rain
+475,19,Monday,20,Food,1,7.5,Rain
+475,19,Tuesday,14,Professional & Other Places,-999,-999,Rain
+475,19,Tuesday,18,Professional & Other Places,-999,-999,Clouds
+475,19,Tuesday,18,Shop & Service,-999,8.0,Clouds
+475,19,Tuesday,18,Food,1,7.6,Clouds
+475,19,Wednesday,14,Professional & Other Places,-999,-999,Clear
+475,19,Wednesday,14,Food,1,7.5,Clear
+475,19,Friday,10,Shop & Service,-999,6.3,Clear
+475,19,Friday,10,Shop & Service,-999,-999,Clear
+475,19,Saturday,11,Outdoors & Recreation,-999,-999,Clear
+475,19,Saturday,14,Food,2,7.3,Clear
+475,19,Saturday,17,Shop & Service,-999,6.3,Clear
+476,19,Monday,13,Residence,-999,-999,Rain
+476,19,Tuesday,11,Outdoors & Recreation,-999,-999,Clouds
+476,19,Tuesday,11,Residence,-999,-999,Clouds
+476,19,Wednesday,13,Professional & Other Places,-999,-999,Fog
+476,19,Wednesday,13,Food,1,7.0,Fog
+476,19,Wednesday,19,Professional & Other Places,-999,-999,Clear
+476,19,Friday,11,Professional & Other Places,-999,-999,Clouds
+476,19,Sunday,16,Shop & Service,-999,7.6,Clouds
+476,19,Sunday,16,Food,1,7.7,Clouds
+476,19,Sunday,16,Shop & Service,-999,8.0,Clouds
+478,19,Wednesday,12,Food,3,8.9,Clear
+478,19,Wednesday,12,Food,2,7.7,Clear
+478,19,Wednesday,20,Residence,-999,-999,Clouds
+478,19,Thursday,9,Food,1,-999,Clear
+478,19,Thursday,19,Shop & Service,-999,-999,Clouds
+478,19,Friday,11,Shop & Service,-999,7.4,Clear
+478,19,Friday,11,Shop & Service,-999,-999,Clear
+478,19,Friday,15,Food,2,7.7,Clouds
+478,19,Friday,15,Shop & Service,-999,-999,Clouds
+478,19,Friday,15,Residence,-999,-999,Clouds
+478,19,Friday,15,Shop & Service,-999,7.0,Clouds
+478,19,Saturday,11,Outdoors & Recreation,-999,-999,Clouds
+478,19,Saturday,13,Shop & Service,-999,-999,Clouds
+478,19,Saturday,13,Shop & Service,-999,7.4,Clouds
+478,19,Saturday,15,Shop & Service,-999,7.9,Clouds
+478,19,Saturday,16,Shop & Service,-999,8.7,Clouds
+478,19,Saturday,17,Shop & Service,-999,8.3,Rain
+478,19,Saturday,18,Shop & Service,-999,-999,Rain
+478,19,Saturday,18,Shop & Service,-999,-999,Rain
+478,19,Saturday,18,Shop & Service,-999,7.1,Rain
+478,19,Saturday,18,Shop & Service,-999,6.4,Clouds
+478,19,Saturday,18,Food,2,-999,Clouds
+478,19,Saturday,20,Food,1,-999,Clouds
+478,19,Sunday,16,Shop & Service,-999,5.9,Clouds
+479,19,Monday,13,Shop & Service,-999,8.1,Clear
+479,19,Monday,13,Professional & Other Places,-999,-999,Clear
+479,19,Monday,14,Shop & Service,-999,5.7,Clouds
+479,19,Monday,14,Shop & Service,-999,5.7,Clouds
+479,19,Monday,15,Outdoors & Recreation,-999,9.4,Clouds
+479,19,Monday,19,Shop & Service,-999,-999,Clouds
+479,19,Monday,19,Shop & Service,-999,-999,Clouds
+479,19,Monday,19,Food,1,-999,Clouds
+479,19,Tuesday,15,Residence,-999,-999,Rain
+479,19,Wednesday,18,Outdoors & Recreation,-999,-999,Clouds
+479,19,Wednesday,18,Shop & Service,-999,-999,Clouds
+479,19,Wednesday,20,Outdoors & Recreation,-999,-999,Clouds
+479,19,Wednesday,20,Professional & Other Places,-999,-999,Clouds
+479,19,Friday,9,Shop & Service,-999,-999,Clear
+479,19,Friday,9,Food,1,5.7,Clear
+482,19,Monday,11,Professional & Other Places,-999,-999,Clear
+482,19,Monday,15,Food,1,-999,Clear
+482,19,Monday,16,Shop & Service,-999,6.1,Clouds
+482,19,Monday,19,Shop & Service,-999,6.5,Clear
+482,19,Tuesday,6,Residence,-999,-999,Clear
+482,19,Tuesday,15,Travel & Transport,-999,-999,Clouds
+482,19,Tuesday,15,Residence,-999,-999,Clouds
+482,19,Wednesday,13,Food,2,7.6,Clear
+482,19,Wednesday,13,Shop & Service,-999,7.6,Clear
+482,19,Wednesday,14,Shop & Service,-999,8.0,Clear
+482,19,Wednesday,14,Shop & Service,-999,-999,Clear
+482,19,Wednesday,14,Shop & Service,-999,9.0,Clear
+482,19,Friday,21,Outdoors & Recreation,-999,-999,Clear
+482,19,Friday,21,Nightlife Spot,1,-999,Clear
+482,19,Saturday,10,Shop & Service,-999,-999,Clear
+482,19,Saturday,11,Residence,-999,-999,Clear
+482,19,Saturday,11,Food,1,5.7,Clear
+482,19,Saturday,18,Food,2,7.6,Clear
+482,19,Saturday,20,Arts & Entertainment,-999,7.4,Clear
+482,19,Sunday,12,Outdoors & Recreation,-999,-999,Clouds
+482,19,Sunday,13,Shop & Service,-999,7.6,Clear
+483,19,Monday,14,Shop & Service,-999,-999,Clouds
+483,19,Monday,14,Shop & Service,-999,7.4,Clouds
+483,19,Wednesday,13,Outdoors & Recreation,-999,-999,Clouds
+483,19,Thursday,9,Outdoors & Recreation,-999,-999,Clouds
+483,19,Thursday,18,Professional & Other Places,-999,-999,Clear
+483,19,Thursday,20,Food,2,6.2,Clear
+483,19,Friday,9,Shop & Service,-999,-999,Clear
+483,19,Friday,16,Shop & Service,-999,-999,Clear
+483,19,Friday,17,Shop & Service,-999,7.2,Clear
+483,19,Friday,18,Shop & Service,-999,-999,Clear
+483,19,Friday,22,Food,1,6.0,Clouds
+483,19,Friday,23,Residence,-999,-999,Clouds
+483,19,Sunday,13,Shop & Service,-999,-999,Clouds
+483,19,Sunday,13,Shop & Service,-999,6.4,Clouds
+483,19,Sunday,14,Food,1,5.9,Clouds
+483,19,Sunday,15,Residence,-999,-999,Clouds
+483,19,Sunday,16,Outdoors & Recreation,-999,-999,Clouds
+632,25,Monday,8,Outdoors & Recreation,-999,9.8,Clear
+632,25,Monday,19,Food,4,9.1,Clear
+632,25,Tuesday,8,Food,2,5.1,Clear
+632,25,Tuesday,19,Shop & Service,-999,-999,Clouds
+632,25,Wednesday,8,Outdoors & Recreation,-999,9.8,Clouds
+632,25,Wednesday,18,Shop & Service,-999,-999,Clouds
+632,25,Wednesday,19,Shop & Service,-999,7.8,Clouds
+632,25,Wednesday,20,Shop & Service,-999,-999,Clouds
+632,25,Wednesday,20,Shop & Service,-999,-999,Clouds
+632,25,Wednesday,20,Food,1,9.1,Clouds
+632,25,Thursday,13,Food,1,7.8,Clouds
+632,25,Thursday,14,Shop & Service,-999,-999,Clouds
+632,25,Thursday,17,Shop & Service,-999,-999,Clouds
+632,25,Thursday,17,Outdoors & Recreation,-999,9.8,Clouds
+632,25,Thursday,18,Food,1,6.8,Clouds
+632,25,Thursday,22,Food,2,7.1,Clouds
+632,25,Friday,11,Professional & Other Places,-999,-999,Clouds
+632,25,Friday,12,Shop & Service,-999,8.7,Clouds
+632,25,Friday,12,Shop & Service,-999,8.3,Clouds
+632,25,Friday,20,Arts & Entertainment,-999,8.9,Clouds
+632,25,Saturday,11,Shop & Service,-999,8.3,Clouds
+632,25,Saturday,12,Shop & Service,-999,6.5,Clouds
+632,25,Saturday,13,Shop & Service,-999,-999,Clouds
+632,25,Saturday,15,Outdoors & Recreation,-999,9.2,Clouds
+632,25,Saturday,19,Shop & Service,-999,6.9,Clear
+632,25,Saturday,22,Nightlife Spot,1,7.1,Clear
+632,25,Sunday,1,Nightlife Spot,2,-999,Clear
+632,25,Sunday,13,Shop & Service,-999,8.7,Clouds
+634,25,Monday,8,Outdoors & Recreation,-999,9.8,Clouds
+634,25,Monday,8,Professional & Other Places,-999,-999,Clouds
+634,25,Tuesday,8,Outdoors & Recreation,-999,9.8,Clear
+634,25,Tuesday,8,Professional & Other Places,-999,-999,Clear
+634,25,Tuesday,12,Outdoors & Recreation,-999,9.3,Clear
+634,25,Tuesday,14,Food,1,7.7,Clear
+634,25,Tuesday,23,Professional & Other Places,-999,-999,Clear
+634,25,Wednesday,7,Food,2,-999,Clouds
+634,25,Wednesday,8,Travel & Transport,-999,7.0,Clouds
+634,25,Friday,8,Professional & Other Places,-999,-999,Clear
+634,25,Friday,13,Food,1,8.0,Clear
+634,25,Friday,17,Arts & Entertainment,-999,9.0,Clouds
+634,25,Friday,18,Outdoors & Recreation,-999,9.2,Clear
+634,25,Saturday,16,Outdoors & Recreation,-999,9.2,Clouds
+634,25,Saturday,22,Food,1,-999,Clear
+634,25,Saturday,23,Nightlife Spot,2,-999,Clear
+634,25,Sunday,11,Outdoors & Recreation,-999,9.2,Clear
+634,25,Sunday,14,Food,2,5.9,Clear
+634,25,Sunday,16,Travel & Transport,-999,5.5,Clear
+634,25,Sunday,16,Arts & Entertainment,-999,7.2,Clear
+635,25,Monday,8,Arts & Entertainment,-999,9.0,Fog
+635,25,Monday,8,Outdoors & Recreation,-999,9.6,Fog
+635,25,Monday,8,Outdoors & Recreation,-999,9.8,Fog
+635,25,Monday,13,Food,1,7.9,Clouds
+635,25,Monday,22,Residence,-999,-999,Clouds
+635,25,Tuesday,6,Outdoors & Recreation,-999,9.2,Rain
+635,25,Tuesday,8,Outdoors & Recreation,-999,9.8,Clouds
+635,25,Friday,6,Food,1,8.9,Clear
+635,25,Friday,8,Food,2,-999,Clear
+635,25,Friday,13,Shop & Service,-999,7.5,Clear
+635,25,Friday,13,Food,1,7.7,Clear
+635,25,Saturday,2,Residence,-999,-999,Clear
+635,25,Saturday,15,Outdoors & Recreation,-999,9.2,Clear
+635,25,Saturday,19,Food,1,7.8,Clear
+635,25,Saturday,21,Food,1,8.5,Clear
+636,25,Monday,11,Food,1,-999,Clouds
+636,25,Monday,18,Arts & Entertainment,-999,9.0,Clouds
+636,25,Monday,20,Food,1,7.8,Clouds
+636,25,Tuesday,6,Outdoors & Recreation,-999,9.2,Clear
+636,25,Tuesday,12,Food,2,6.3,Clear
+636,25,Tuesday,17,Travel & Transport,-999,5.5,Clear
+636,25,Sunday,13,Travel & Transport,-999,4.5,Clouds
+636,25,Sunday,14,Travel & Transport,-999,5.3,Clouds
+636,25,Sunday,16,Outdoors & Recreation,-999,9.2,Clouds
+636,25,Sunday,17,Food,1,7.8,Clear
+637,25,Monday,7,Arts & Entertainment,-999,9.0,Clear
+637,25,Monday,7,Outdoors & Recreation,-999,-999,Clear
+637,25,Monday,8,Outdoors & Recreation,-999,9.6,Clear
+637,25,Monday,17,Outdoors & Recreation,-999,-999,Clear
+637,25,Monday,17,Arts & Entertainment,-999,9.0,Clear
+637,25,Tuesday,6,Outdoors & Recreation,-999,9.2,Clouds
+637,25,Tuesday,8,Outdoors & Recreation,-999,-999,Clouds
+637,25,Tuesday,8,Outdoors & Recreation,-999,9.6,Clouds
+637,25,Wednesday,8,Outdoors & Recreation,-999,9.8,Clouds
+637,25,Wednesday,8,Food,2,7.3,Clouds
+637,25,Wednesday,18,Outdoors & Recreation,-999,9.4,Clear
+637,25,Wednesday,21,Food,1,7.8,Clear
+637,25,Friday,13,Food,2,-999,Clouds
+637,25,Friday,18,Outdoors & Recreation,-999,9.3,Clear
+637,25,Friday,20,Food,1,8.8,Clouds
+637,25,Friday,21,Shop & Service,-999,5.4,Clouds
+637,25,Saturday,10,Food,2,-999,Clouds
+637,25,Saturday,10,Shop & Service,-999,6.5,Clouds
+637,25,Saturday,11,Shop & Service,-999,7.7,Clouds
+637,25,Saturday,11,Shop & Service,-999,6.6,Clouds
+637,25,Saturday,12,Shop & Service,-999,8.6,Clouds
+637,25,Saturday,16,Travel & Transport,-999,-999,Clouds
+637,25,Saturday,21,Outdoors & Recreation,-999,9.3,Clouds
+637,25,Sunday,10,Outdoors & Recreation,-999,9.0,Clouds
+637,25,Sunday,11,Arts & Entertainment,-999,8.2,Clouds
+637,25,Sunday,11,Shop & Service,-999,8.5,Clouds
+637,25,Sunday,12,Shop & Service,-999,6.0,Fog
+637,25,Sunday,12,Shop & Service,-999,5.7,Fog
+637,25,Sunday,14,Arts & Entertainment,-999,7.2,Fog
+637,25,Sunday,19,Travel & Transport,-999,5.5,Clouds
+638,25,Monday,8,Outdoors & Recreation,-999,-999,Clear
+638,25,Monday,17,Outdoors & Recreation,-999,9.8,Clear
+638,25,Monday,17,Outdoors & Recreation,-999,9.2,Clear
+638,25,Monday,20,Shop & Service,-999,8.7,Clear
+638,25,Tuesday,8,Arts & Entertainment,-999,9.0,Rain
+638,25,Tuesday,8,Outdoors & Recreation,-999,-999,Rain
+638,25,Tuesday,8,Outdoors & Recreation,-999,9.6,Rain
+638,25,Tuesday,8,Outdoors & Recreation,-999,9.8,Rain
+638,25,Tuesday,8,Food,2,5.1,Rain
+638,25,Tuesday,20,Residence,-999,-999,Clear
+638,25,Wednesday,8,Outdoors & Recreation,-999,9.6,Clouds
+638,25,Wednesday,12,Food,1,-999,Clear
+638,25,Wednesday,18,Outdoors & Recreation,-999,9.2,Clouds
+638,25,Wednesday,21,Food,1,6.5,Clear
+638,25,Thursday,8,Outdoors & Recreation,-999,-999,Clear
+638,25,Thursday,17,Outdoors & Recreation,-999,9.2,Clear
+638,25,Thursday,19,Shop & Service,-999,6.5,Clear
+638,25,Thursday,22,Food,2,8.3,Unknown
+638,25,Friday,7,Food,2,7.9,Clear
+638,25,Friday,8,Outdoors & Recreation,-999,9.6,Clouds
+638,25,Friday,8,Outdoors & Recreation,-999,9.8,Clouds
+638,25,Friday,18,Outdoors & Recreation,-999,9.2,Clouds
+638,25,Saturday,9,Food,2,-999,Clouds
+638,25,Saturday,10,Shop & Service,-999,7.7,Clouds
+638,25,Saturday,20,Shop & Service,-999,8.0,Clouds
+639,25,Monday,8,Outdoors & Recreation,-999,9.6,Clouds
+639,25,Monday,8,Outdoors & Recreation,-999,9.8,Clouds
+639,25,Tuesday,8,Outdoors & Recreation,-999,-999,Unknown
+639,25,Tuesday,8,Outdoors & Recreation,-999,9.6,Unknown
+639,25,Tuesday,20,Outdoors & Recreation,-999,9.3,Clouds
+639,25,Tuesday,21,Outdoors & Recreation,-999,9.1,Clouds
+639,25,Tuesday,22,Shop & Service,-999,7.7,Clouds
+639,25,Wednesday,13,Outdoors & Recreation,-999,9.3,Clear
+639,25,Wednesday,17,Food,2,9.2,Clear
+639,25,Wednesday,18,Arts & Entertainment,-999,-999,Clear
+639,25,Wednesday,21,Shop & Service,-999,8.8,Clear
+639,25,Thursday,8,Arts & Entertainment,-999,9.0,Clear
+639,25,Thursday,8,Outdoors & Recreation,-999,-999,Clear
+639,25,Thursday,12,Shop & Service,-999,-999,Clear
+639,25,Thursday,13,Shop & Service,-999,-999,Clear
+639,25,Thursday,13,Shop & Service,-999,8.6,Clear
+639,25,Friday,7,Arts & Entertainment,-999,9.0,Clear
+639,25,Friday,7,Outdoors & Recreation,-999,9.6,Clear
+639,25,Friday,21,Shop & Service,-999,8.0,Clear
+639,25,Saturday,11,Food,2,7.9,Clear
+639,25,Saturday,14,Residence,-999,-999,Clear
+639,25,Sunday,0,Residence,-999,-999,Clouds
+639,25,Sunday,15,Residence,-999,-999,Rain
+640,25,Monday,8,Arts & Entertainment,-999,9.0,Clouds
+640,25,Monday,8,Outdoors & Recreation,-999,-999,Clouds
+640,25,Monday,8,Food,1,7.6,Clouds
+640,25,Tuesday,8,Residence,-999,-999,Clouds
+640,25,Tuesday,9,Shop & Service,-999,5.4,Clouds
+640,25,Tuesday,18,Shop & Service,-999,8.6,Clouds
+640,25,Tuesday,18,Shop & Service,-999,6.6,Clouds
+640,25,Wednesday,7,Arts & Entertainment,-999,9.0,Clouds
+640,25,Wednesday,8,Outdoors & Recreation,-999,-999,Clouds
+640,25,Wednesday,8,Outdoors & Recreation,-999,9.6,Clouds
+640,25,Wednesday,8,Outdoors & Recreation,-999,9.8,Clouds
+640,25,Wednesday,8,Food,1,6.0,Clouds
+640,25,Wednesday,20,Outdoors & Recreation,-999,9.2,Clear
+640,25,Wednesday,23,Shop & Service,-999,6.4,Clear
+640,25,Thursday,0,Shop & Service,-999,-999,Clear
+640,25,Thursday,0,Shop & Service,-999,5.7,Clear
+640,25,Thursday,0,Shop & Service,-999,6.9,Clear
+640,25,Thursday,16,Professional & Other Places,-999,-999,Clouds
+641,25,Thursday,7,Outdoors & Recreation,-999,-999,Clouds
+641,25,Thursday,7,Outdoors & Recreation,-999,9.8,Clouds
+641,25,Thursday,8,Food,2,5.1,Clouds
+641,25,Thursday,13,Food,1,7.1,Clouds
+641,25,Friday,8,Outdoors & Recreation,-999,9.8,Clouds
+641,25,Friday,13,Shop & Service,-999,7.5,Clear
+641,25,Friday,17,Shop & Service,-999,6.6,Clear
+641,25,Friday,17,Outdoors & Recreation,-999,9.2,Clear
+641,25,Friday,20,Professional & Other Places,-999,-999,Clear
+641,25,Friday,21,Food,1,6.7,Clear
+641,25,Saturday,10,Residence,-999,-999,Clouds
+641,25,Saturday,12,Shop & Service,-999,7.6,Clouds
+641,25,Saturday,13,Professional & Other Places,-999,-999,Snow
+641,25,Saturday,14,Food,2,7.3,Snow
+641,25,Saturday,15,Food,1,6.5,Clouds
+641,25,Saturday,22,Nightlife Spot,2,8.3,Snow
+642,25,Tuesday,17,Travel & Transport,-999,5.3,Clouds
+642,25,Tuesday,17,Travel & Transport,-999,5.5,Clear
+642,25,Wednesday,7,Arts & Entertainment,-999,9.0,Clear
+642,25,Wednesday,8,Food,2,7.3,Clear
+642,25,Wednesday,12,Shop & Service,-999,-999,Clear
+642,25,Wednesday,13,Food,1,-999,Clear
+642,25,Wednesday,19,Shop & Service,-999,5.4,Clear
+642,25,Thursday,8,Outdoors & Recreation,-999,-999,Clear
+642,25,Thursday,13,Food,2,8.1,Clouds
+642,25,Saturday,0,Food,1,6.8,Clear
+642,25,Saturday,11,Food,1,8.4,Clear
+642,25,Saturday,18,Residence,-999,-999,Clear
+643,25,Monday,7,Arts & Entertainment,-999,9.0,Clear
+643,25,Monday,7,Outdoors & Recreation,-999,-999,Clear
+643,25,Monday,7,Outdoors & Recreation,-999,9.8,Clear
+643,25,Monday,8,Outdoors & Recreation,-999,9.6,Clear
+643,25,Monday,8,Food,1,6.0,Clear
+643,25,Monday,21,Food,1,-999,Clear
+643,25,Tuesday,7,Outdoors & Recreation,-999,9.6,Clear
+643,25,Tuesday,8,Outdoors & Recreation,-999,9.8,Clear
+643,25,Tuesday,8,Food,2,5.1,Clear
+643,25,Tuesday,13,Shop & Service,-999,-999,Clear
+643,25,Tuesday,13,Outdoors & Recreation,-999,9.4,Clear
+643,25,Tuesday,13,Shop & Service,-999,7.5,Clear
+643,25,Tuesday,13,Food,2,7.3,Clear
+643,25,Tuesday,19,Outdoors & Recreation,-999,9.2,Clear
+643,25,Wednesday,8,Arts & Entertainment,-999,9.0,Clouds
+643,25,Wednesday,8,Outdoors & Recreation,-999,9.8,Clouds
+643,25,Wednesday,19,Outdoors & Recreation,-999,9.4,Clear
+643,25,Wednesday,19,Outdoors & Recreation,-999,9.3,Clear
+643,25,Wednesday,21,Food,2,-999,Clear
+643,25,Thursday,6,Outdoors & Recreation,-999,9.2,Clear
+643,25,Thursday,8,Outdoors & Recreation,-999,9.6,Clear
+643,25,Thursday,19,Shop & Service,-999,6.6,Clear
+643,25,Thursday,23,Nightlife Spot,1,8.0,Clear
+643,25,Friday,8,Arts & Entertainment,-999,9.0,Clouds
+643,25,Friday,8,Food,2,5.1,Clouds
+643,25,Friday,12,Food,1,7.9,Clouds
+643,25,Saturday,8,Outdoors & Recreation,-999,-999,Clouds
+643,25,Saturday,8,Outdoors & Recreation,-999,9.6,Clouds
+643,25,Saturday,9,Outdoors & Recreation,-999,9.8,Clouds
+643,25,Saturday,14,Food,1,-999,Clouds
+643,25,Saturday,23,Nightlife Spot,2,8.3,Clouds
+643,25,Sunday,2,Nightlife Spot,1,8.0,Clouds
+643,25,Sunday,3,Nightlife Spot,2,7.9,Clouds
+643,25,Sunday,15,Food,1,6.8,Clouds
+643,25,Sunday,15,Arts & Entertainment,-999,8.9,Clouds
+643,25,Sunday,19,Outdoors & Recreation,-999,8.2,Clouds
+644,25,Monday,8,Arts & Entertainment,-999,9.0,Fog
+644,25,Monday,8,Outdoors & Recreation,-999,-999,Fog
+644,25,Monday,8,Food,2,5.1,Fog
+644,25,Monday,19,Shop & Service,-999,6.6,Clouds
+644,25,Monday,19,Food,1,7.8,Clouds
+644,25,Tuesday,7,Arts & Entertainment,-999,9.0,Clouds
+644,25,Tuesday,7,Outdoors & Recreation,-999,-999,Clouds
+644,25,Wednesday,6,Outdoors & Recreation,-999,9.2,Clouds
+644,25,Wednesday,18,Shop & Service,-999,5.4,Clouds
+644,25,Thursday,8,Outdoors & Recreation,-999,9.6,Clear
+644,25,Thursday,8,Outdoors & Recreation,-999,9.8,Clear
+644,25,Thursday,12,Food,1,7.1,Clouds
+644,25,Friday,6,Outdoors & Recreation,-999,9.2,Clouds
+644,25,Friday,13,Food,1,7.9,Clouds
+645,25,Monday,7,Arts & Entertainment,-999,9.0,Clear
+645,25,Monday,7,Outdoors & Recreation,-999,-999,Clear
+645,25,Monday,7,Outdoors & Recreation,-999,9.6,Clear
+645,25,Monday,8,Food,1,6.7,Clear
+645,25,Monday,20,Food,1,9.1,Clouds
+645,25,Tuesday,6,Outdoors & Recreation,-999,9.2,Clouds
+645,25,Tuesday,8,Outdoors & Recreation,-999,9.6,Clear
+645,25,Tuesday,8,Outdoors & Recreation,-999,9.8,Clear
+645,25,Thursday,13,Outdoors & Recreation,-999,9.6,Clear
+645,25,Thursday,19,Nightlife Spot,1,8.0,Clear
+645,25,Friday,14,Outdoors & Recreation,-999,9.2,Clouds
+645,25,Saturday,12,Shop & Service,-999,6.0,Clouds
+645,25,Saturday,14,Food,1,7.4,Clear
+645,25,Saturday,19,Outdoors & Recreation,-999,-999,Clear
+645,25,Saturday,20,Shop & Service,-999,-999,Clear
+645,25,Sunday,11,Food,2,-999,Clear
+645,25,Sunday,17,Shop & Service,-999,8.7,Clear
+646,25,Monday,8,Arts & Entertainment,-999,9.0,Clouds
+646,25,Monday,8,Outdoors & Recreation,-999,-999,Clouds
+646,25,Tuesday,12,Shop & Service,-999,-999,Fog
+646,25,Tuesday,12,Food,1,7.9,Fog
+646,25,Wednesday,8,Travel & Transport,-999,5.3,Fog
+646,25,Wednesday,8,Travel & Transport,-999,5.5,Fog
+646,25,Thursday,8,Outdoors & Recreation,-999,9.6,Clouds
+646,25,Friday,18,Outdoors & Recreation,-999,9.2,Clear
+646,25,Saturday,3,Food,1,6.8,Clouds
+646,25,Saturday,15,Food,2,8.8,Clouds
+646,25,Saturday,15,Professional & Other Places,-999,-999,Clouds
+646,25,Saturday,19,Nightlife Spot,2,-999,Clouds
+647,25,Monday,8,Arts & Entertainment,-999,9.0,Clear
+647,25,Monday,8,Outdoors & Recreation,-999,-999,Clear
+647,25,Monday,8,Outdoors & Recreation,-999,9.6,Clear
+647,25,Monday,20,Shop & Service,-999,8.7,Clear
+647,25,Tuesday,7,Outdoors & Recreation,-999,-999,Fog
+647,25,Tuesday,8,Outdoors & Recreation,-999,9.8,Fog
+647,25,Tuesday,8,Shop & Service,-999,6.6,Fog
+647,25,Tuesday,13,Shop & Service,-999,-999,Fog
+647,25,Tuesday,19,Outdoors & Recreation,-999,9.2,Clouds
+647,25,Wednesday,17,Outdoors & Recreation,-999,9.0,Clear
+647,25,Thursday,8,Arts & Entertainment,-999,9.0,Clear
+647,25,Thursday,8,Outdoors & Recreation,-999,9.8,Clear
+647,25,Thursday,19,Food,1,9.1,Clear
+648,25,Monday,7,Travel & Transport,-999,5.3,Rain
+648,25,Monday,7,Travel & Transport,-999,5.5,Rain
+648,25,Monday,20,Outdoors & Recreation,-999,9.2,Clouds
+648,25,Monday,22,Food,1,7.8,Clouds
+648,25,Tuesday,6,Outdoors & Recreation,-999,9.2,Clouds
+648,25,Tuesday,18,College & University,-999,-999,Clear
+648,25,Tuesday,18,College & University,-999,6.9,Clear
+648,25,Tuesday,18,College & University,-999,-999,Clear
+648,25,Wednesday,7,Outdoors & Recreation,-999,9.6,Clear
+648,25,Wednesday,7,Outdoors & Recreation,-999,-999,Clear
+648,25,Wednesday,8,Outdoors & Recreation,-999,9.8,Clear
+648,25,Wednesday,8,Food,2,-999,Clear
+648,25,Wednesday,18,Shop & Service,-999,8.3,Clouds
+648,25,Wednesday,18,Nightlife Spot,2,7.4,Clouds
+648,25,Wednesday,19,Professional & Other Places,-999,-999,Clouds
+908,34,Monday,7,Professional & Other Places,-999,-999,Clear
+908,34,Monday,7,Outdoors & Recreation,-999,7.8,Clear
+908,34,Monday,9,Shop & Service,-999,7.5,Clear
+908,34,Monday,15,College & University,-999,7.9,Clouds
+908,34,Monday,18,Food,1,9.5,Clouds
+908,34,Monday,22,Residence,-999,-999,Clouds
+908,34,Tuesday,7,Food,1,6.2,Clouds
+908,34,Tuesday,21,Residence,-999,-999,Clear
+908,34,Wednesday,10,College & University,-999,-999,Clouds
+908,34,Wednesday,14,Professional & Other Places,-999,-999,Clouds
+908,34,Wednesday,22,Outdoors & Recreation,-999,7.8,Clouds
+908,34,Thursday,9,Residence,-999,-999,Clouds
+908,34,Thursday,14,Professional & Other Places,-999,-999,Clouds
+908,34,Thursday,22,Outdoors & Recreation,-999,7.8,Clouds
+908,34,Thursday,23,Residence,-999,-999,Clouds
+908,34,Friday,8,College & University,-999,-999,Clear
+908,34,Friday,12,College & University,-999,7.9,Clear
+908,34,Saturday,0,Residence,-999,-999,Clear
+908,34,Saturday,14,Shop & Service,-999,-999,Clear
+908,34,Saturday,14,Shop & Service,-999,6.9,Clear
+908,34,Saturday,17,Residence,-999,-999,Clear
+908,34,Saturday,19,Arts & Entertainment,-999,9.5,Clear
+908,34,Sunday,0,Food,2,6.8,Clouds
+908,34,Sunday,1,Residence,-999,-999,Clouds
+908,34,Sunday,15,Food,1,7.2,Clouds
+908,34,Sunday,15,Shop & Service,-999,7.0,Clouds
+909,34,Tuesday,6,Outdoors & Recreation,-999,7.8,Clear
+909,34,Tuesday,8,College & University,-999,-999,Clear
+909,34,Tuesday,10,College & University,-999,7.9,Clear
+909,34,Wednesday,22,Outdoors & Recreation,-999,7.8,Clouds
+909,34,Friday,6,Outdoors & Recreation,-999,7.8,Clear
+909,34,Friday,9,College & University,-999,-999,Clear
+909,34,Friday,10,College & University,-999,7.9,Clouds
+909,34,Saturday,0,Residence,-999,-999,Clouds
+909,34,Saturday,23,Residence,-999,-999,Clouds
+909,34,Sunday,15,Residence,-999,-999,Rain
+910,34,Monday,12,Food,1,5.4,Clouds
+910,34,Monday,13,Outdoors & Recreation,-999,9.2,Clouds
+910,34,Monday,14,Shop & Service,-999,8.7,Clouds
+910,34,Monday,16,Arts & Entertainment,-999,8.3,Clouds
+910,34,Tuesday,1,Residence,-999,-999,Clouds
+910,34,Tuesday,6,Outdoors & Recreation,-999,7.8,Clouds
+910,34,Tuesday,8,College & University,-999,-999,Clear
+910,34,Wednesday,9,Residence,-999,-999,Clouds
+910,34,Thursday,10,Residence,-999,-999,Clouds
+910,34,Thursday,10,Outdoors & Recreation,-999,7.8,Clouds
+910,34,Friday,9,College & University,-999,-999,Clouds
+910,34,Friday,9,College & University,-999,-999,Clouds
+910,34,Friday,10,College & University,-999,7.9,Clouds
+910,34,Saturday,8,Outdoors & Recreation,-999,7.8,Clear
+910,34,Saturday,10,Residence,-999,-999,Clear
+910,34,Saturday,13,Food,1,6.1,Clear
+910,34,Saturday,13,Professional & Other Places,-999,-999,Clear
+910,34,Saturday,22,Nightlife Spot,1,-999,Clear
+910,34,Saturday,23,Residence,-999,-999,Clear
+910,34,Sunday,6,Professional & Other Places,-999,-999,Clear
+910,34,Sunday,9,Food,2,7.1,Clear
+910,34,Sunday,10,Professional & Other Places,-999,-999,Clear
+910,34,Sunday,15,Food,1,6.1,Clear
+911,34,Tuesday,15,Professional & Other Places,-999,-999,Clouds
+911,34,Tuesday,22,Outdoors & Recreation,-999,7.8,Clouds
+911,34,Wednesday,0,Residence,-999,-999,Clouds
+911,34,Thursday,9,Outdoors & Recreation,-999,7.8,Clouds
+911,34,Thursday,10,Residence,-999,-999,Clouds
+911,34,Thursday,13,Food,1,5.4,Clouds
+911,34,Thursday,14,Professional & Other Places,-999,-999,Clouds
+911,34,Friday,8,College & University,-999,-999,Clouds
+911,34,Friday,9,College & University,-999,-999,Clouds
+911,34,Friday,10,College & University,-999,7.9,Clouds
+911,34,Saturday,4,Residence,-999,-999,Clouds
+911,34,Saturday,13,Professional & Other Places,-999,-999,Clouds
+911,34,Saturday,18,Food,2,5.6,Clouds
+911,34,Sunday,14,Food,1,6.7,Clouds
+911,34,Sunday,16,Residence,-999,-999,Clear
+912,34,Monday,7,Outdoors & Recreation,-999,7.8,Clouds
+912,34,Monday,8,Professional & Other Places,-999,-999,Clouds
+912,34,Monday,17,Residence,-999,-999,Rain
+912,34,Tuesday,22,Residence,-999,-999,Clouds
+912,34,Wednesday,6,Outdoors & Recreation,-999,7.8,Clouds
+912,34,Wednesday,7,Residence,-999,-999,Rain
+912,34,Wednesday,8,Professional & Other Places,-999,-999,Rain
+912,34,Wednesday,19,Residence,-999,-999,Clouds
+912,34,Thursday,18,Residence,-999,-999,Clear
+912,34,Thursday,21,Food,2,6.5,Clear
+912,34,Thursday,22,Residence,-999,-999,Clear
+912,34,Friday,6,Outdoors & Recreation,-999,7.8,Clear
+912,34,Friday,8,Professional & Other Places,-999,-999,Clear
+912,34,Friday,16,Shop & Service,-999,-999,Clear
+912,34,Saturday,10,Outdoors & Recreation,-999,7.8,Clear
+912,34,Saturday,21,Residence,-999,-999,Clear
+912,34,Sunday,14,Food,3,8.0,Clear
+912,34,Sunday,18,Food,1,5.4,Clear
+912,34,Sunday,19,Travel & Transport,-999,7.5,Clear
+912,34,Sunday,20,Food,2,6.9,Clear
+912,34,Sunday,23,Residence,-999,-999,Clouds
+913,34,Monday,5,Professional & Other Places,-999,-999,Clouds
+913,34,Monday,22,Residence,-999,-999,Clouds
+913,34,Tuesday,10,Outdoors & Recreation,-999,7.8,Clouds
+913,34,Tuesday,22,Residence,-999,-999,Rain
+913,34,Wednesday,11,Outdoors & Recreation,-999,7.8,Clouds
+913,34,Wednesday,12,Residence,-999,-999,Fog
+913,34,Wednesday,14,Professional & Other Places,-999,-999,Clear
+913,34,Wednesday,22,Residence,-999,-999,Clear
+913,34,Thursday,6,Professional & Other Places,-999,-999,Clear
+913,34,Thursday,14,Residence,-999,-999,Clear
+913,34,Friday,10,Outdoors & Recreation,-999,7.8,Clear
+913,34,Friday,11,Shop & Service,-999,5.7,Clear
+913,34,Friday,23,Nightlife Spot,2,7.9,Clear
+913,34,Saturday,2,Food,2,7.7,Clear
+920,34,Monday,14,Residence,-999,-999,Unknown
+920,34,Monday,21,Residence,-999,-999,Clear
+920,34,Tuesday,13,Food,1,8.4,Clouds
+920,34,Tuesday,15,Professional & Other Places,-999,-999,Clouds
+920,34,Tuesday,18,Residence,-999,-999,Clear
+920,34,Tuesday,20,Arts & Entertainment,-999,8.3,Clear
+920,34,Tuesday,23,Residence,-999,-999,Clouds
+920,34,Wednesday,18,Professional & Other Places,-999,-999,Clear
+920,34,Thursday,18,Professional & Other Places,-999,-999,Clear
+920,34,Friday,11,Residence,-999,-999,Clear
+920,34,Saturday,14,Food,1,-999,Clear
+920,34,Saturday,17,Travel & Transport,-999,5.1,Clear
+920,34,Saturday,18,Food,-999,8.4,Clear
+920,34,Sunday,17,Shop & Service,-999,8.0,Clouds
+920,34,Sunday,21,Nightlife Spot,1,-999,Clouds
+920,34,Sunday,21,Food,1,8.7,Clouds
+920,34,Sunday,21,Residence,-999,-999,Clear
+921,34,Monday,15,Outdoors & Recreation,-999,7.8,Clouds
+921,34,Monday,17,Professional & Other Places,-999,-999,Clouds
+921,34,Wednesday,2,Professional & Other Places,-999,-999,Clouds
+921,34,Wednesday,9,Residence,-999,-999,Clouds
+921,34,Wednesday,19,Residence,-999,-999,Clear
+921,34,Wednesday,19,Food,2,7.9,Clear
+921,34,Thursday,22,Residence,-999,-999,Clear
+921,34,Friday,15,Residence,-999,-999,Clear
+921,34,Friday,17,Food,1,6.6,Clear
+921,34,Friday,18,Professional & Other Places,-999,-999,Clear
+921,34,Saturday,6,Residence,-999,-999,Clouds
+921,34,Sunday,6,Residence,-999,-999,Clouds
+921,34,Sunday,13,Food,1,5.4,Clouds
+923,34,Tuesday,10,College & University,-999,-999,Clear
+923,34,Tuesday,11,College & University,-999,-999,Clouds
+923,34,Thursday,17,Shop & Service,-999,-999,Clear
+923,34,Thursday,18,Shop & Service,-999,8.6,Clouds
+923,34,Friday,17,Residence,-999,-999,Clear
+923,34,Friday,17,Professional & Other Places,-999,-999,Clouds
+923,34,Saturday,1,Food,2,5.6,Clouds
+923,34,Saturday,6,Residence,-999,-999,Clouds
+923,34,Saturday,18,Professional & Other Places,-999,-999,Rain
+923,34,Sunday,6,Residence,-999,-999,Clouds
+923,34,Sunday,16,Food,1,7.3,Rain
+925,34,Monday,1,Food,2,5.6,Clouds
+925,34,Monday,6,Residence,-999,-999,Clouds
+925,34,Thursday,9,Residence,-999,-999,Clear
+925,34,Thursday,11,College & University,-999,-999,Clear
+925,34,Thursday,11,Food,1,-999,Clouds
+925,34,Thursday,12,Residence,-999,-999,Clouds
+925,34,Thursday,15,Professional & Other Places,-999,-999,Clear
+925,34,Thursday,23,Residence,-999,-999,Clouds
+925,34,Friday,5,Travel & Transport,-999,7.0,Clouds
+925,34,Friday,6,Travel & Transport,-999,8.0,Clouds
+931,34,Tuesday,6,Residence,-999,-999,Clouds
+931,34,Wednesday,8,Residence,-999,-999,Clear
+931,34,Thursday,16,Arts & Entertainment,-999,-999,Clouds
+931,34,Thursday,19,Outdoors & Recreation,-999,7.8,Clouds
+931,34,Thursday,20,Residence,-999,-999,Clouds
+931,34,Thursday,21,Shop & Service,-999,7.0,Clouds
+931,34,Thursday,21,Professional & Other Places,-999,-999,Clouds
+931,34,Friday,10,College & University,-999,-999,Clouds
+931,34,Friday,12,Residence,-999,-999,Rain
+931,34,Friday,15,Shop & Service,-999,7.3,Clouds
+931,34,Friday,16,Shop & Service,-999,8.0,Clouds
+932,34,Monday,6,Food,1,-999,Clear
+932,34,Monday,7,Residence,-999,-999,Clear
+932,34,Monday,19,Outdoors & Recreation,-999,7.8,Clear
+932,34,Monday,20,Residence,-999,-999,Clear
+932,34,Tuesday,6,Residence,-999,-999,Clear
+932,34,Tuesday,10,College & University,-999,-999,Clouds
+932,34,Tuesday,12,Food,1,9.0,Clouds
+932,34,Tuesday,21,Residence,-999,-999,Rain
+932,34,Tuesday,21,Professional & Other Places,-999,-999,Rain
+932,34,Wednesday,13,Residence,-999,-999,Clouds
+932,34,Wednesday,20,Residence,-999,-999,Clouds
+932,34,Thursday,6,Residence,-999,-999,Clouds
+932,34,Thursday,19,Outdoors & Recreation,-999,6.5,Clouds
+932,34,Thursday,20,Food,2,8.3,Clouds
+932,34,Thursday,20,Residence,-999,-999,Clouds
+932,34,Thursday,21,Professional & Other Places,-999,-999,Clouds
+932,34,Friday,0,Food,2,5.6,Clouds
+932,34,Friday,6,Residence,-999,-999,Clouds
+932,34,Friday,10,College & University,-999,-999,Clouds
+932,34,Friday,11,College & University,-999,7.9,Clouds
+932,34,Friday,21,Professional & Other Places,-999,-999,Clouds
+932,34,Saturday,12,Residence,-999,-999,Clouds
+932,34,Saturday,17,Shop & Service,-999,8.6,Clear
+932,34,Sunday,17,Residence,-999,-999,Clouds
+932,34,Sunday,20,Professional & Other Places,-999,-999,Clouds
+934,34,Tuesday,6,Residence,-999,-999,Clear
+934,34,Tuesday,18,Food,2,7.4,Clear
+934,34,Tuesday,19,Residence,-999,-999,Clear
+934,34,Tuesday,23,Professional & Other Places,-999,-999,Clear
+934,34,Wednesday,6,Residence,-999,-999,Clouds
+934,34,Friday,6,Residence,-999,-999,Clear
+934,34,Friday,18,Outdoors & Recreation,-999,7.8,Clear
+934,34,Friday,21,Nightlife Spot,1,-999,Clear
+934,34,Saturday,14,Food,1,7.8,Clouds
+934,34,Saturday,15,Shop & Service,-999,8.0,Clouds
+934,34,Saturday,20,Shop & Service,-999,5.5,Clouds
+934,34,Saturday,21,Residence,-999,-999,Clouds
+934,34,Sunday,0,Nightlife Spot,3,6.1,Clear
+934,34,Sunday,2,Shop & Service,-999,-999,Clouds
+934,34,Sunday,2,Food,2,8.0,Clouds
+934,34,Sunday,2,Residence,-999,-999,Clouds
+934,34,Sunday,19,Arts & Entertainment,-999,-999,Clear
+934,34,Sunday,21,Residence,-999,-999,Clear
+934,34,Sunday,21,Professional & Other Places,-999,-999,Clear
+935,34,Monday,19,Outdoors & Recreation,-999,7.8,Clouds
+935,34,Monday,23,Professional & Other Places,-999,-999,Clouds
+935,34,Thursday,21,Food,1,5.4,Clear
+935,34,Friday,16,Shop & Service,-999,-999,Clear
+935,34,Friday,21,Food,2,-999,Clear
+935,34,Saturday,8,Residence,-999,-999,Clear
+935,34,Saturday,13,Residence,-999,-999,Clear
+935,34,Saturday,13,Arts & Entertainment,-999,8.3,Clear
+935,34,Saturday,20,Professional & Other Places,-999,-999,Clear
+935,34,Saturday,20,Food,2,8.3,Clear
+936,34,Monday,20,Nightlife Spot,2,6.5,Clouds
+936,34,Monday,21,Residence,-999,-999,Clouds
+936,34,Monday,21,Professional & Other Places,-999,-999,Clear
+936,34,Tuesday,19,Residence,-999,-999,Clear
+936,34,Wednesday,7,Residence,-999,-999,Clear
+936,34,Wednesday,20,Residence,-999,-999,Clear
+936,34,Wednesday,22,Professional & Other Places,-999,-999,Clear
+936,34,Thursday,21,Professional & Other Places,-999,-999,Clear
+936,34,Friday,6,Residence,-999,-999,Clear
+936,34,Friday,15,Shop & Service,-999,-999,Clear
+936,34,Friday,17,Shop & Service,-999,-999,Clear
+936,34,Friday,17,Shop & Service,-999,7.4,Clear
+936,34,Friday,19,Shop & Service,-999,7.5,Clear
+936,34,Friday,21,Residence,-999,-999,Clouds
+936,34,Saturday,17,Residence,-999,-999,Clouds
+936,34,Sunday,7,Food,1,7.1,Clear
+936,34,Sunday,7,Residence,-999,-999,Clear
+937,34,Monday,6,Residence,-999,-999,Clear
+937,34,Monday,20,Food,2,7.1,Clear
+937,34,Wednesday,10,Residence,-999,-999,Clouds
+937,34,Wednesday,10,College & University,-999,-999,Clear
+937,34,Wednesday,13,Residence,-999,-999,Clear
+937,34,Wednesday,15,Food,2,7.7,Clouds
+937,34,Wednesday,22,Professional & Other Places,-999,-999,Clear
+937,34,Friday,10,College & University,-999,-999,Clouds
+937,34,Friday,20,Arts & Entertainment,-999,-999,Clouds
+937,34,Sunday,12,Food,1,9.5,Fog
+937,34,Sunday,13,Professional & Other Places,-999,-999,Fog
+937,34,Sunday,21,Food,2,7.1,Rain
+938,34,Monday,17,Shop & Service,-999,-999,Clear
+938,34,Tuesday,13,Arts & Entertainment,-999,8.3,Fog
+938,34,Wednesday,14,Food,2,9.1,Clear
+938,34,Thursday,13,Professional & Other Places,-999,-999,Clear
+938,34,Thursday,21,Food,2,9.1,Clear
+938,34,Thursday,21,Professional & Other Places,-999,-999,Clear
+938,34,Friday,15,Shop & Service,-999,6.1,Clouds
+938,34,Friday,16,Residence,-999,-999,Clouds
+938,34,Friday,20,Arts & Entertainment,-999,-999,Rain
+938,34,Saturday,20,Residence,-999,-999,Clouds
+938,34,Sunday,12,Food,2,7.4,Clouds
+938,34,Sunday,12,Food,1,7.5,Clouds
+938,34,Sunday,13,Professional & Other Places,-999,-999,Clouds
+938,34,Sunday,21,Food,2,7.1,Clouds
+939,34,Monday,10,College & University,-999,-999,Clouds
+939,34,Monday,21,Professional & Other Places,-999,-999,Clouds
+939,34,Tuesday,14,Shop & Service,-999,7.3,Clouds
+939,34,Tuesday,14,Food,2,8.2,Clouds
+939,34,Tuesday,16,Residence,-999,-999,Clouds
+939,34,Tuesday,22,Professional & Other Places,-999,-999,Clouds
+939,34,Wednesday,21,Professional & Other Places,-999,-999,Clear
+939,34,Thursday,13,Shop & Service,-999,-999,Clear
+939,34,Thursday,13,Shop & Service,-999,7.2,Clear
+939,34,Thursday,13,Shop & Service,-999,6.1,Clear
+939,34,Saturday,3,Professional & Other Places,-999,-999,Clear
+939,34,Saturday,22,Nightlife Spot,1,-999,Clouds
+939,34,Sunday,17,Food,1,7.9,Clouds
+940,34,Monday,6,Shop & Service,-999,7.0,Clouds
+940,34,Monday,13,College & University,-999,-999,Clouds
+940,34,Monday,21,Professional & Other Places,-999,-999,Rain
+940,34,Tuesday,23,Professional & Other Places,-999,-999,Clouds
+940,34,Wednesday,15,Shop & Service,-999,7.4,Clear
+940,34,Wednesday,17,Shop & Service,-999,6.3,Clear
+940,34,Wednesday,18,Residence,-999,-999,Clear
+940,34,Thursday,15,Shop & Service,-999,-999,Clear
+940,34,Thursday,15,Shop & Service,-999,7.4,Clear
+940,34,Thursday,16,Shop & Service,-999,-999,Clouds
+940,34,Friday,16,Shop & Service,-999,8.6,Clouds
+940,34,Friday,17,Residence,-999,-999,Clouds
+940,34,Saturday,1,Residence,-999,-999,Clouds
+940,34,Saturday,13,Shop & Service,-999,7.5,Clouds
+940,34,Saturday,21,Professional & Other Places,-999,-999,Clouds
+940,34,Sunday,1,Food,2,7.1,Clouds
+940,34,Sunday,1,Food,2,5.6,Clouds
+940,34,Sunday,7,Professional & Other Places,-999,-999,Clear
+942,34,Monday,22,Food,2,5.6,Clouds
+942,34,Tuesday,19,Residence,-999,-999,Clear
+942,34,Tuesday,21,Food,1,7.1,Clear
+942,34,Friday,6,Residence,-999,-999,Clouds
+942,34,Friday,7,Residence,-999,-999,Clouds
+942,34,Friday,9,Food,1,7.9,Clouds
+942,34,Friday,19,Outdoors & Recreation,-999,7.8,Clear
+942,34,Saturday,10,Residence,-999,-999,Clear
+942,34,Sunday,2,Shop & Service,-999,9.3,Clouds
+942,34,Sunday,3,Residence,-999,-999,Clouds
+942,34,Sunday,11,Residence,-999,-999,Fog
+942,34,Sunday,20,Food,2,5.6,Clouds
+943,34,Monday,6,Shop & Service,-999,8.6,Clouds
+943,34,Monday,21,Shop & Service,-999,8.6,Clear
+943,34,Tuesday,19,Food,2,7.2,Clear
+943,34,Tuesday,21,Professional & Other Places,-999,-999,Clear
+943,34,Thursday,17,Food,2,9.3,Clear
+943,34,Thursday,18,Shop & Service,-999,-999,Clear
+943,34,Friday,10,Residence,-999,-999,Clear
+943,34,Saturday,0,Nightlife Spot,2,7.8,Rain
+943,34,Saturday,1,Nightlife Spot,1,-999,Rain
+943,34,Saturday,18,Residence,-999,-999,Clouds
+943,34,Saturday,21,Food,1,7.1,Clouds
+943,34,Sunday,6,Residence,-999,-999,Clouds
+945,34,Thursday,17,Outdoors & Recreation,-999,7.8,Clear
+945,34,Thursday,22,Professional & Other Places,-999,-999,Clear
+945,34,Friday,6,College & University,-999,-999,Clear
+945,34,Friday,10,Residence,-999,-999,Clear
+945,34,Friday,19,Outdoors & Recreation,-999,7.8,Snow
+945,34,Friday,20,Shop & Service,-999,5.7,Snow
+945,34,Friday,20,Residence,-999,-999,Snow
+945,34,Saturday,14,Residence,-999,-999,Clear
+945,34,Saturday,15,Food,2,9.1,Clear
+945,34,Saturday,15,Residence,-999,-999,Clear
+945,34,Saturday,22,Professional & Other Places,-999,-999,Clear
+945,34,Sunday,6,Residence,-999,-999,Clear
+945,34,Sunday,13,Food,1,7.1,Clear
+945,34,Sunday,21,Food,2,5.6,Clear
+946,34,Monday,6,Residence,-999,-999,Clouds
+946,34,Monday,16,College & University,-999,-999,Rain
+946,34,Tuesday,7,Food,1,6.4,Clouds
+946,34,Tuesday,7,College & University,-999,-999,Clouds
+946,34,Tuesday,10,Shop & Service,-999,5.5,Clouds
+946,34,Tuesday,11,Shop & Service,-999,-999,Clouds
+946,34,Tuesday,12,Residence,-999,-999,Clouds
+946,34,Wednesday,6,Residence,-999,-999,Fog
+946,34,Wednesday,20,Residence,-999,-999,Clouds
+946,34,Wednesday,21,Professional & Other Places,-999,-999,Clouds
+946,34,Thursday,6,Residence,-999,-999,Clouds
+946,34,Thursday,21,Food,1,7.1,Clouds
+946,34,Friday,7,College & University,-999,-999,Clouds
+946,34,Friday,9,College & University,-999,-999,Clouds
+946,34,Friday,21,Food,1,7.1,Clouds
+946,34,Saturday,17,Food,1,8.0,Clouds
+946,34,Sunday,1,Residence,-999,-999,Fog
+947,34,Monday,6,Residence,-999,-999,Clear
+947,34,Monday,20,Residence,-999,-999,Clear
+947,34,Tuesday,7,Food,1,6.4,Snow
+947,34,Tuesday,7,College & University,-999,-999,Snow
+947,34,Tuesday,11,Professional & Other Places,-999,-999,Fog
+947,34,Tuesday,11,Shop & Service,-999,8.3,Fog
+947,34,Wednesday,21,Food,1,7.1,Clear
+947,34,Wednesday,21,Professional & Other Places,-999,-999,Clear
+947,34,Thursday,1,Food,2,5.6,Clear
+947,34,Thursday,6,Residence,-999,-999,Clear
+947,34,Thursday,13,College & University,-999,7.9,Clear
+947,34,Thursday,20,Residence,-999,-999,Clouds
+947,34,Thursday,22,Professional & Other Places,-999,-999,Clouds
+947,34,Friday,6,Residence,-999,-999,Clouds

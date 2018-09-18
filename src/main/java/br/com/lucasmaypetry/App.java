@@ -2,16 +2,15 @@ package br.com.lucasmaypetry;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.com.lucasmaypetry.base.Attribute;
 import br.com.lucasmaypetry.base.ExperimentRunner;
+import br.com.lucasmaypetry.base.Trajectory;
 import br.com.lucasmaypetry.base.config.ExperimentConfiguration;
 import br.com.lucasmaypetry.base.config.SimilarityType;
-import br.com.lucasmaypetry.distance.ExpressionDistanceFunction;
+import br.com.lucasmaypetry.data.TrajectoryLoader;
 import br.com.lucasmaypetry.utils.Logger;
 import br.com.lucasmaypetry.utils.Logger.Type;
 import net.sourceforge.argparse4j.ArgumentParsers;
@@ -28,10 +27,14 @@ public class App {
         parser.addArgument("-s", "--similarity")
                 .choices("LCSS", "EDR", "MSM")
                 .help("specify the similarity measure to use");
-        parser.addArgument("input").nargs("*")
-                .help("trajectory file(s) to compute the similarity");
+        parser.addArgument("-d", "--compute-distances")
+		        .choices("true", "false")
+		        .setDefault("false")
+		        .help("specify whether to compute distances (true) or similarities (false)");
+        parser.addArgument("input").nargs(1)
+                .help("trajectory file to compute distances/similarities");
         parser.addArgument("output").nargs(1)
-        		.help("output file with the similarity scores");
+        		.help("output file with the distance/similarity scores");
         parser.addArgument("config").nargs(1)
 				.help("configuration file");
         Namespace ns = null;
@@ -43,34 +46,44 @@ public class App {
             System.exit(1);
         }
 
-        List<String> inputFile = formatFileNames(ns.getList("input"));
+        String inputFile = formatFileName(ns.getString("input")
+				.replaceAll("\\[", "").replaceAll("\\]", ""));
         String outputFile = formatFileName(ns.getString("output")
 				.replaceAll("\\[", "").replaceAll("\\]", ""));
         String configFile = formatFileName(ns.getString("config")
         		.replaceAll("\\[", "").replaceAll("\\]", ""));
         String similarityMeasure = ns.getString("similarity");
 
-        Logger.log(Type.INFO, "Input file(s): " + inputFile);
-        Logger.log(Type.INFO, "Output file:   " + outputFile);
-        Logger.log(Type.INFO, "Config file:   " + configFile);
+        Logger.log(Type.INFO, "Input file:        " + inputFile);
+        Logger.log(Type.INFO, "Output file:       " + outputFile);
+        Logger.log(Type.INFO, "Config file:       " + configFile);
         
 		ObjectMapper mapper = new ObjectMapper();
-		ExperimentConfiguration c = null;
+		ExperimentConfiguration config = null;
 		
 		try {
-			c = mapper.readValue(new File(configFile), ExperimentConfiguration.class);
+			config = mapper.readValue(new File(configFile), ExperimentConfiguration.class);
 		} catch (IOException e) {
 			Logger.log(Type.ERROR, e.getMessage());
 			e.printStackTrace();
 		}
 		
 		if(similarityMeasure != null) {
-			c.setSimilarity(SimilarityType.valueOf(similarityMeasure));
+			config.setSimilarity(SimilarityType.valueOf(similarityMeasure));
+		}
+		
+		if(config.getComputeDistances() == null) {
+			config.setComputeDistances(Boolean.parseBoolean(ns.getString("compute_distances")));
 		}
 
-        Logger.log(Type.INFO, "Similarity:    " + c.getSimilarity());
-		ExperimentRunner experiment = new ExperimentRunner(c);
-		experiment.run();
+        Logger.log(Type.INFO, "Similarity:        " + config.getSimilarity());
+        Logger.log(Type.INFO, "Compute distances: " + config.getComputeDistances());
+        
+        TrajectoryLoader loader = new TrajectoryLoader(inputFile);
+        List<Trajectory> trajectories = loader.load(config);
+
+		ExperimentRunner experiment = new ExperimentRunner(config);
+		experiment.run(trajectories, outputFile);
 //        System.out.println(new ExpressionDistanceFunction("abs(x + y)").distance(new Attribute(1, -20.3), new Attribute(1, 1.5)));
     }
     
@@ -85,14 +98,14 @@ public class App {
 		return file;
     }
 
-    private static List<String> formatFileNames(List<String> files) {
-    	List<String> newFiles = new ArrayList<>(files.size());
-    	
-    	for(String file : files) {
-    		newFiles.add(formatFileName(file));
-    	}
-    	
-    	return newFiles;
-    }
+//    private static List<String> formatFileNames(List<String> files) {
+//    	List<String> newFiles = new ArrayList<>(files.size());
+//    	
+//    	for(String file : files) {
+//    		newFiles.add(formatFileName(file));
+//    	}
+//    	
+//    	return newFiles;
+//    }
     
 }

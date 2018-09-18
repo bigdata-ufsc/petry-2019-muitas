@@ -1,13 +1,52 @@
 {
 	"experiment_name": "My Experiment",
-	"similarity": "MSM",
 	"tid_col": "tid",
 	"label_col": "label",
-	"attributes": {
-		"poi": {
+	"features": {
+		"day": {
+			"type": "STRING",
+			"distance_function": "x != y",
+			"weight": 1,
+			"threshold": [
+				0.0
+			]
+		},
+		"hour": {
 			"type": "INTEGER",
 			"distance_function": "abs(x - y)",
-			"weight": 0.5,
+			"weight": 1,
+			"threshold": [
+				1.0
+			]
+		},
+		"poi": {
+			"type": "STRING",
+			"distance_function": "x != y",
+			"weight": 1,
+			"threshold": [
+				0.0
+			]
+		},
+		"price": {
+			"type": "INTEGER",
+			"distance_function": "abs(x - y)",
+			"weight": 1,
+			"threshold": [
+				0.0
+			]
+		},
+		"rating": {
+			"type": "DOUBLE",
+			"distance_function": "abs(x - y)",
+			"weight": 1,
+			"threshold": [
+				0.5
+			]
+		},
+		"weather": {
+			"type": "STRING",
+			"distance_function": "x != y",
+			"weight": 1,
 			"threshold": [
 				0.0
 			]

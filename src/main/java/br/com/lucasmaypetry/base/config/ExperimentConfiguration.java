@@ -24,8 +24,14 @@ public class ExperimentConfiguration {
 
 	@JsonProperty("similarity")
 	private SimilarityType similarity;
+	
+	@JsonProperty("compute_distances")
+	private Boolean computeDistances;
 
-	@JsonProperty("attributes")
-	private Map<String, AttributeConfiguration> attributes;
+	@JsonProperty("threads")
+	private int threads;
+
+	@JsonProperty("features")
+	private Map<String, FeatureConfiguration> features;
 
 }

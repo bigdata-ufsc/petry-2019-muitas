@@ -14,14 +14,17 @@ public class Logger {
 		INFO("[    INFO    ]"),
 		ERROR("[   ERROR    ]"),
 		WARNING("[  WARNING   ]"),
-		CONFIG("[   CONFIG   ]"),
-		RUNNING("[  RUNNING   ]");
+		CONFIG("[   CONFIG   ]");
 
 		private String prefix;
 	}
 
 	public static void log(Type type, String message) {
 		System.out.println(getCurrentDate() + " " + type.getPrefix() + " " + message);
+	}
+
+	public static void log_dyn(Type type, String message) {
+		System.out.print(getCurrentDate() + " " + type.getPrefix() + " " + message + "\r");
 	}
 
 	public static void log(Type type, Object... objs) {

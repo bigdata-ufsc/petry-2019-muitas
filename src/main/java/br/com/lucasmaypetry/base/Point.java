@@ -11,41 +11,41 @@ import lombok.Getter;
 public class Point {
 
 	@Getter
-	private Map<Integer, Attribute> attributes;
+	private Map<String, Feature> features;
 
-	public Point(List<Attribute> attributes) {
-		this.attributes = new HashMap<Integer, Attribute>();
+	public Point(List<Feature> features) {
+		this.features = new HashMap<String, Feature>();
 
-		for (Attribute attribute : attributes) {
-			this.attributes.put(attribute.getType(), attribute);
+		for (Feature feature : features) {
+			this.features.put(feature.getName(), feature);
 		}
 	}
 
-	public Point(Attribute... attributes) {
-		this.attributes = new HashMap<Integer, Attribute>();
+	public Point(Feature... features) {
+		this.features = new HashMap<String, Feature>();
 
-		for (Attribute attribute : attributes) {
-			this.attributes.put(attribute.getType(), attribute);
+		for (Feature feature : features) {
+			this.features.put(feature.getName(), feature);
 		}
 	}
 
-	public Attribute getAttributeByType(int type) {
-		return this.attributes.get(type);
+	public Feature getAttribute(String type) {
+		return this.features.get(type);
 	}
 
-	public List<Attribute> getAttributesAsList() {
-		List<Attribute> sortedList = this.attributes.values().stream().collect(Collectors.toList());
-		Collections.sort(sortedList, (o1, o2) -> o1.getType() > o2.getType() ? 1 : -1);
+	public List<Feature> getAttributesAsList() {
+		List<Feature> sortedList = this.features.values().stream().collect(Collectors.toList());
+		Collections.sort(sortedList, (o1, o2) -> o1.getName().compareTo(o2.getName()));
 
 		return sortedList;
 	}
 
 	@Override
 	public Point clone() {
-		Attribute[] newAttr = new Attribute[this.attributes.size()];
+		Feature[] newAttr = new Feature[this.features.size()];
 		int i = 0;
 
-		for (Attribute a : this.attributes.values())
+		for (Feature a : this.features.values())
 			newAttr[i++] = a.clone();
 
 		return new Point(newAttr);
