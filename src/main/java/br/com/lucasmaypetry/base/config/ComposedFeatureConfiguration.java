@@ -11,21 +11,12 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class FeatureConfiguration {
+public class ComposedFeatureConfiguration {
 
-	@JsonProperty("type")
-	private DataType type;
-
-	@JsonProperty("distance_function")
-	private String distanceFunction;
-
-	@JsonProperty("format")
-	private String format;
+	@JsonProperty("features")
+	private List<String> features;
 
 	@JsonProperty("weight")
 	private double weight;
-
-	@JsonProperty("threshold")
-	private List<Double> thresholds;
 
 }

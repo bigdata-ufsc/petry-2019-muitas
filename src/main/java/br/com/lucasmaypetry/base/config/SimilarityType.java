@@ -14,7 +14,8 @@ public enum SimilarityType {
 
 	EDR(br.com.lucasmaypetry.similarity.EDR.class),
 	LCSS(br.com.lucasmaypetry.similarity.LCSS.class),
-	MSM(br.com.lucasmaypetry.similarity.MSM.class);
+	MSM(br.com.lucasmaypetry.similarity.MSM.class),
+	MUITAS(br.com.lucasmaypetry.similarity.MUITAS.class);
 	
 	private Class<?> similarityClass;
 	

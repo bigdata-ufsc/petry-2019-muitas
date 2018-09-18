@@ -25,7 +25,7 @@ public class App {
                 .defaultHelp(true)
                 .description("Compute distances/similarities of trajectories.");
         parser.addArgument("-s", "--similarity")
-                .choices("LCSS", "EDR", "MSM")
+                .choices("LCSS", "EDR", "MSM", "MUITAS")
                 .help("specify the similarity measure to use");
         parser.addArgument("-d", "--compute-distances")
 		        .choices("true", "false")

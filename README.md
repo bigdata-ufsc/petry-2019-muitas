@@ -7,10 +7,12 @@ Trajectory similarity measures library. Similarity measures included:
   * Vlachos, M., Kollios, G., & Gunopulos, D. (2002). **Discovering similar multidimensional trajectories.** In Data Engineering, 2002. Proceedings. 18th International Conference on (pp. 673-684). IEEE.
 * Multidimensional Similarity Measure (MSM)
   * Furtado, A. S., Kopanaki, D., Alvares, L. O., & Bogorny, V. (2016). **Multidimensional similarity measuring for semantic trajectories.** Transactions in GIS, 20(2), 280-298.
+* Multiple-Aspect Trajectory Similarity Measure (MUITAS)
+  * To be published.
 
 ### Usage
 ```
-usage: Trajectory Similarity [-h] [-s {LCSS,EDR,MSM}] [-d {true,false}] input output config
+usage: Trajectory Similarity [-h] [-s {LCSS,EDR,MSM,MUITAS}] [-d {true,false}] input output config
 
 Compute distances/similarities of trajectories.
 
@@ -21,7 +23,7 @@ positional arguments:
 
 named arguments:
   -h, --help             show this help message and exit
-  -s {LCSS,EDR,MSM}, --similarity {LCSS,EDR,MSM}
+  -s {LCSS,EDR,MSM,MUITAS}, --similarity {LCSS,EDR,MSM,MUITAS}
                          specify the similarity measure to use
   -d {true,false}, --compute-distances {true,false}
                          specify whether to compute distances (true) or similarities (false) (default: false)

@@ -4,13 +4,8 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
-import br.com.lucasmaypetry.base.config.FeatureConfiguration;
-import br.com.lucasmaypetry.base.config.DataType;
 import br.com.lucasmaypetry.base.config.ExperimentConfiguration;
-import br.com.lucasmaypetry.distance.ExprDistanceFunction;
-import br.com.lucasmaypetry.distance.HashedExprDistanceFunction;
 import br.com.lucasmaypetry.similarity.SimilarityMeasure;
 import br.com.lucasmaypetry.similarity.SimilarityRunner;
 import br.com.lucasmaypetry.utils.CSVWriter;
@@ -28,7 +23,7 @@ public class ExperimentRunner {
 	public void run(List<Trajectory> trajectories, String outputFile) {
 		Logger.log(Type.INFO, "Running experiment '" + this.config.getExperimentName() + "'... ");
 //		ExecutorService executor = Executors.newFixedThreadPool(config.getThreads());
-		Application app = this.getApplication();
+		Application app = Application.fromExperimentConfiguration(this.config);
 		SimilarityMeasure measure = null;
 		
 		try {
@@ -76,27 +71,6 @@ public class ExperimentRunner {
 //			Logger.log(Type.INFO, "All tasks have finished!");
 //		}
 		Logger.log(Type.INFO, "Running experiment '" + this.config.getExperimentName() + "'... DONE!");
-	}
-	
-	private Application getApplication() {
-		Application app = new Application();
-		Map<String, FeatureConfiguration> features = this.config.getFeatures();
-		
-		for(String feature : features.keySet()) {
-			app.addFeature(feature);
-			app.setWeight(feature, features.get(feature).getWeight());
-			app.setThreshold(feature, features.get(feature).getThresholds().get(0));
-			
-			if(features.get(feature).getType() == DataType.STRING ||
-					features.get(feature).getType() == DataType.DATE) {
-				app.setDistanceFunction(feature, new HashedExprDistanceFunction(features.get(feature).getDistanceFunction()));
-			} else {
-				app.setDistanceFunction(feature, new ExprDistanceFunction(features.get(feature).getDistanceFunction()));
-			}
-		}
-		
-		app.normalizeWeights();
-		return app;
 	}
 	
 }

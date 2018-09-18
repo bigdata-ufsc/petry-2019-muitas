@@ -9,32 +9,31 @@
 				"price",
 				"rating"
 			],
-			"weight": 1.0
+			"weight": 1
 		},
 		{
 			"features": [
 				"day"
 			],
-			"weight": 1.0
+			"weight": 1
 		},
 		{
 			"features": [
 				"hour"
 			],
-			"weight": 1.0
+			"weight": 1
 		},
 		{
 			"features": [
 				"weather"
 			],
-			"weight": 1.0
+			"weight": 1
 		}
 	],
 	"features": {
 		"day": {
 			"type": "STRING",
 			"distance_function": "x != y",
-			"weight": 1,
 			"threshold": [
 				0.0
 			]
@@ -42,7 +41,6 @@
 		"hour": {
 			"type": "INTEGER",
 			"distance_function": "abs(x - y)",
-			"weight": 1,
 			"threshold": [
 				1.0
 			]
@@ -50,7 +48,6 @@
 		"poi": {
 			"type": "STRING",
 			"distance_function": "x != y",
-			"weight": 1,
 			"threshold": [
 				0.0
 			]
@@ -58,7 +55,6 @@
 		"price": {
 			"type": "INTEGER",
 			"distance_function": "abs(x - y)",
-			"weight": 1,
 			"threshold": [
 				0.0
 			]
@@ -66,7 +62,6 @@
 		"rating": {
 			"type": "DOUBLE",
 			"distance_function": "abs(x - y)",
-			"weight": 1,
 			"threshold": [
 				0.5
 			]
@@ -74,7 +69,6 @@
 		"weather": {
 			"type": "STRING",
 			"distance_function": "x != y",
-			"weight": 1,
 			"threshold": [
 				0.0
 			]
