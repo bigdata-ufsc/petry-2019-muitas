@@ -26,12 +26,13 @@ public class SimilarityRunner {
 		int step = (int) Math.ceil(totalComp / 100.0);
 		int count = step;
 		int perc = 0;
+		int add = similarity ? 0 : -1;
 
 		Logger.log_dyn(Type.INFO, appPrefix + "0% of " + totalComp + " computations done.");
 		
 		for (int i = 0; i < trajectories.size(); i++) {
 			for (int j = 0; j <= i; j++) {
-				matrix[i][j] = measure.similarityOf(trajectories.get(i), trajectories.get(j));
+				matrix[i][j] = Math.abs(measure.similarityOf(trajectories.get(i), trajectories.get(j)) + add);
 				count--;
 				
 				if(count == 0) {
@@ -42,14 +43,8 @@ public class SimilarityRunner {
 			}
 		}
 
-		// Convert to distances if not similarity and complete
-		// the upper half of the full matrix
+		// Complete the upper half of the full matrix
 		for (int i = 0; i < matrix.length; i++) {
-			if(!similarity) {
-				for (int j = 0; j <= i; j++)
-					matrix[i][j] = 1 - matrix[j][i];
-			}
-
 			for (int j = i + 1; j < matrix[0].length; j++)
 				matrix[i][j] = matrix[j][i];
 		}
