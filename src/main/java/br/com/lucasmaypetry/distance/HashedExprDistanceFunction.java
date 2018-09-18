@@ -24,4 +24,8 @@ public class HashedExprDistanceFunction implements DistanceFunction<Feature> {
 		return e.calculate();
 	}
 
+	@Override
+	public String toString() {
+		return e.getExpressionString();
+	}
 }

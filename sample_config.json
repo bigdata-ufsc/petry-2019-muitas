@@ -1,5 +1,6 @@
 {
 	"experiment_name": "My Experiment",
+	"threads": 2,
 	"tid_col": "tid",
 	"label_col": "label",
 	"features_analysis": [
@@ -44,7 +45,7 @@
 			"distance_function": "abs(x - y)",
 			"weight": 1,
 			"threshold": [
-				1.0
+				1.0, 2
 			]
 		},
 		"poi": {
@@ -68,7 +69,7 @@
 			"distance_function": "abs(x - y)",
 			"weight": 1,
 			"threshold": [
-				0.5
+				0.5, 1.0
 			]
 		},
 		"weather": {

@@ -23,5 +23,10 @@ public class ExprDistanceFunction implements DistanceFunction<Feature> {
 		this.y.setArgumentValue((double) o2.getValue());
 		return e.calculate();
 	}
+	
+	@Override
+	public String toString() {
+		return e.getExpressionString();
+	}
 
 }

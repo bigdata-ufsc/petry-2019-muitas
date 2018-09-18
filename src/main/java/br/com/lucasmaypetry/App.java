@@ -6,11 +6,11 @@ import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.com.lucasmaypetry.base.ExperimentRunner;
 import br.com.lucasmaypetry.base.Trajectory;
 import br.com.lucasmaypetry.base.config.ExperimentConfiguration;
 import br.com.lucasmaypetry.base.config.SimilarityType;
 import br.com.lucasmaypetry.data.TrajectoryLoader;
+import br.com.lucasmaypetry.experiment.ExperimentRunner;
 import br.com.lucasmaypetry.utils.Logger;
 import br.com.lucasmaypetry.utils.Logger.Type;
 import net.sourceforge.argparse4j.ArgumentParsers;

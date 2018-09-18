@@ -1,37 +1,39 @@
 package br.com.lucasmaypetry.base;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
-import java.util.Set;
 
-import br.com.lucasmaypetry.base.config.ComposedFeatureConfiguration;
-import br.com.lucasmaypetry.base.config.DataType;
-import br.com.lucasmaypetry.base.config.ExperimentConfiguration;
-import br.com.lucasmaypetry.base.config.FeatureConfiguration;
-import br.com.lucasmaypetry.base.config.SimilarityType;
 import br.com.lucasmaypetry.distance.DistanceFunction;
-import br.com.lucasmaypetry.distance.ExprDistanceFunction;
-import br.com.lucasmaypetry.distance.HashedExprDistanceFunction;
 import br.com.lucasmaypetry.utils.Logger;
 import br.com.lucasmaypetry.utils.Logger.Type;
 import lombok.Getter;
 
 public class Application {
 
-	public static String FEATURE_SEPARATOR = ",";
+	public static String FEATURE_SEPARATOR = ".";
+	private static int APP_NUMBER = 0;
 	
 	@Getter
 	private List<String> features;
 
+	@Getter
+	private int number;
+	
 	private Map<String, Double> weights;
 	private Map<String, Double> thresholds;
 	private Map<String, DistanceFunction<Feature>> distanceFunctions;
 
 	public Application() {
+		this.number = ++APP_NUMBER;
 		this.features = new ArrayList<>();
 		this.weights = new HashMap<>();
 		this.thresholds = new HashMap<>();
@@ -39,11 +41,16 @@ public class Application {
 	}
 
 	public Application(String... features) {
+		this.number = ++APP_NUMBER;
 		this.features = Arrays.asList(features);
 		this.weights = new HashMap<>();
 		this.thresholds = new HashMap<>();
 	}
-
+	
+	public String getPrefix() {
+		return "App " + this.number;
+	}
+	
 	public void clear() {
 		this.features.clear();
 		this.weights.clear();
@@ -111,62 +118,36 @@ public class Application {
 		}
 	}
 	
-	public static Application fromExperimentConfiguration(ExperimentConfiguration config) {
-		if(config.getSimilarity().equals(SimilarityType.MUITAS) && config.getFeaturesAnalysis() != null) {
-			return getMUITASApplication(config);
-		}
-
-		Application app = new Application();
-		Map<String, FeatureConfiguration> features = config.getFeatures();
+	public void toFile(String file) throws IOException {
+		DecimalFormat df = (DecimalFormat) NumberFormat.getNumberInstance(Locale.ENGLISH);
+		df.setMinimumFractionDigits(4);
+		df.setMaximumFractionDigits(4);
+		df.setMinimumIntegerDigits(1);
+		df.setMaximumIntegerDigits(3);
 		
-		for(String feature : features.keySet()) {
-			app.addFeature(feature);
-			app.setWeight(feature, features.get(feature).getWeight());
-			app.setThreshold(feature, features.get(feature).getThresholds().get(0));
-			
-			if(features.get(feature).getType() == DataType.STRING ||
-					features.get(feature).getType() == DataType.DATE) {
-				app.setDistanceFunction(feature, new HashedExprDistanceFunction(features.get(feature).getDistanceFunction()));
-			} else {
-				app.setDistanceFunction(feature, new ExprDistanceFunction(features.get(feature).getDistanceFunction()));
-			}
-		}
+		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+		writer.write("==================================================================\n");
+		writer.write(" Application " + this.number + "\n");
+		writer.write("==================================================================\n\n");
+		writer.write(" Features\n");
+		writer.write("------------------------------------------------------------------\n");
 		
-		app.normalizeWeights();
-		return app;
-	}
-
-	private static Application getMUITASApplication(ExperimentConfiguration config) {
-		Set<String> features = new HashSet<>();
-		Application app = new Application();
-		
-		for(ComposedFeatureConfiguration cfc : config.getFeaturesAnalysis()) {
-			String compFeature = "";
-			
-			for(String f : cfc.getFeatures()) {
-				compFeature += FEATURE_SEPARATOR + f;
-				features.add(f);
+		if(this.features.size() == this.thresholds.keySet().size()) {
+			for(String feature : this.thresholds.keySet()) {
+				writer.write(feature + ", weight = " + df.format(this.weights.get(feature)) +
+									   ", threshold = " + df.format(this.thresholds.get(feature)) +
+									   ", distance = " + this.distanceFunctions.get(feature) + "\n");
+			}		
+		} else {
+			for(String feature : this.thresholds.keySet()) {
+				writer.write(feature + ", threshold = " + df.format(this.thresholds.get(feature)) +
+									   ", distance = " + this.distanceFunctions.get(feature) + "\n");
 			}
 
-			compFeature = compFeature.substring(1);
-			app.addFeature(compFeature);
-			app.setWeight(compFeature, cfc.getWeight());
+			writer.write("\nComposed Features:  " + this.weights.keySet() + "\n");
+			writer.write("Weights:            " + this.weights.values() + "\n\n");
 		}
-		
-		Map<String, FeatureConfiguration> featuresCfg = config.getFeatures();
-		
-		for(String feature : features) {
-			app.setThreshold(feature, featuresCfg.get(feature).getThresholds().get(0));
-			
-			if(featuresCfg.get(feature).getType() == DataType.STRING ||
-					featuresCfg.get(feature).getType() == DataType.DATE) {
-				app.setDistanceFunction(feature, new HashedExprDistanceFunction(featuresCfg.get(feature).getDistanceFunction()));
-			} else {
-				app.setDistanceFunction(feature, new ExprDistanceFunction(featuresCfg.get(feature).getDistanceFunction()));
-			}
-		}
-		
-		app.normalizeWeights();
-		return app;
+		writer.flush();
+		writer.close();
 	}
 }

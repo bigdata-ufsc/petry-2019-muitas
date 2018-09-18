@@ -1,5 +1,6 @@
 {
 	"experiment_name": "My Experiment",
+	"threads": 2,
 	"tid_col": "tid",
 	"label_col": "label",
 	"features_analysis": [
