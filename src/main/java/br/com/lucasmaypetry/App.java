@@ -23,7 +23,7 @@ public class App {
     public static void main( String[] args ) {
     	ArgumentParser parser = ArgumentParsers.newFor("Trajectory Similarity").build()
                 .defaultHelp(true)
-                .description("Compute the similarity of trajectories.");
+                .description("Compute distances/similarities of trajectories.");
         parser.addArgument("-s", "--similarity")
                 .choices("LCSS", "EDR", "MSM")
                 .help("specify the similarity measure to use");
