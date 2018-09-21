@@ -17,32 +17,29 @@ public class SimilarityRunner {
 	}
 
 	public double[][] computeScores(SimilarityMeasure measure,
-			final List<Trajectory> trajectories, boolean similarity) {
+			final List<Trajectory> trajectories, int numThreads, boolean similarity) {
+		final int trajSize = trajectories.size();
+		
 		String mxType = similarity ? "similarity" : "distance";
 		Logger.log(Type.INFO, appPrefix + "Computing " + mxType + " matrix...");
-
-		double[][] matrix = new double[trajectories.size()][trajectories.size()];
-		int totalComp = (trajectories.size() * trajectories.size()) / 2 - trajectories.size();
-		int step = (int) Math.ceil(totalComp / 100.0);
-		int count = step;
-		int perc = 0;
-		int add = similarity ? 0 : -1;
-
-		Logger.log_dyn(Type.INFO, appPrefix + "0% of " + totalComp + " computations done.");
 		
-		for (int i = 0; i < trajectories.size(); i++) {
+		final int totalComp = (trajSize * trajSize) / 2 - trajSize;
+		final int add = similarity ? 0 : -1;
+
+		double[][] matrix = new double[trajSize][trajSize];
+		int count = 0;
+
+		Logger.log_dyn(Type.INFO, appPrefix + "0% complete - 0 / " + totalComp + " computations done.");
+		
+		for (int i = 0; i < trajSize; i++) {
 			for (int j = 0; j <= i; j++) {
 				matrix[i][j] = Math.abs(measure.similarityOf(trajectories.get(i), trajectories.get(j)) + add);
-				count--;
-				
-				if(count == 0) {
-					count = step;
-					perc++;
-					Logger.log_dyn(Type.INFO, appPrefix + perc + "% of " + totalComp + " computations done.");
-				}
+				count++;
 			}
+			int perc = (int) (count / totalComp);
+			Logger.log_dyn(Type.INFO, appPrefix + perc + "% complete - " + count + " / " + totalComp + " computations done.");
 		}
-
+		
 		// Complete the upper half of the full matrix
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = i + 1; j < matrix[0].length; j++)

@@ -13,7 +13,7 @@ public class MSM implements SimilarityMeasure {
 	}
 
 	@Override
-	public double similarityOf(Trajectory t1, Trajectory t2) {
+	public final double similarityOf(Trajectory t1, Trajectory t2) {
 		double[][] scores = new double[t1.length()][t2.length()];
 		double parityT1T2 = 0;
 		double parityT2T1 = 0;
@@ -48,7 +48,7 @@ public class MSM implements SimilarityMeasure {
 		return "MSM";
 	}
 
-	private double score(Point p1, Point p2) {
+	private final double score(Point p1, Point p2) {
 		double total = 0;
 
 		for (String feature : this.app.getFeatures()) {
@@ -59,6 +59,11 @@ public class MSM implements SimilarityMeasure {
 		}
 
 		return total;
+	}
+
+	@Override
+	public SimilarityMeasure copy() {
+		return new MSM(this.app.clone());
 	}
 
 }

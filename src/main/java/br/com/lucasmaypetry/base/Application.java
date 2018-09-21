@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import br.com.lucasmaypetry.distance.DistanceFunction;
 import br.com.lucasmaypetry.utils.Logger;
@@ -20,7 +21,7 @@ import lombok.Getter;
 public class Application {
 
 	public static String FEATURE_SEPARATOR = ".";
-	private static int APP_NUMBER = 0;
+	private static AtomicInteger APP_NUMBER = new AtomicInteger(0);
 	
 	@Getter
 	private List<String> features;
@@ -33,7 +34,7 @@ public class Application {
 	private Map<String, DistanceFunction<Feature>> distanceFunctions;
 
 	public Application() {
-		this.number = ++APP_NUMBER;
+		this.number = APP_NUMBER.incrementAndGet();
 		this.features = new ArrayList<>();
 		this.weights = new HashMap<>();
 		this.thresholds = new HashMap<>();
@@ -41,10 +42,23 @@ public class Application {
 	}
 
 	public Application(String... features) {
-		this.number = ++APP_NUMBER;
+		this.number = APP_NUMBER.incrementAndGet();
 		this.features = Arrays.asList(features);
 		this.weights = new HashMap<>();
 		this.thresholds = new HashMap<>();
+	}
+	
+	@Override
+	public synchronized Application clone() {
+		APP_NUMBER.decrementAndGet();
+		Application app = new Application();
+		app.features = new ArrayList<>(this.features);
+		app.number = this.number;
+		app.weights = new HashMap<>(this.weights);
+		app.thresholds = new HashMap<>(this.thresholds);
+		app.distanceFunctions = new HashMap<>(this.distanceFunctions);
+		
+		return app;
 	}
 	
 	public String getPrefix() {

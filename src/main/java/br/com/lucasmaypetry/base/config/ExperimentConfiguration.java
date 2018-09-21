@@ -25,15 +25,6 @@ public class ExperimentConfiguration {
 	@JsonProperty("label_col")
 	private String label;
 
-	@JsonProperty("similarity")
-	private SimilarityType similarity;
-	
-	@JsonProperty("compute_distances")
-	private Boolean computeDistances;
-
-	@JsonProperty("threads")
-	private int threads;
-
 	@JsonProperty("features")
 	private Map<String, FeatureConfiguration> features;
 	

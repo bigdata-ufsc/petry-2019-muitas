@@ -10,7 +10,9 @@ import java.util.concurrent.TimeUnit;
 
 import br.com.lucasmaypetry.base.Application;
 import br.com.lucasmaypetry.base.Trajectory;
+import br.com.lucasmaypetry.base.config.AppArgs;
 import br.com.lucasmaypetry.base.config.ExperimentConfiguration;
+import br.com.lucasmaypetry.data.TrajectoryLoader;
 import br.com.lucasmaypetry.similarity.SimilarityMeasure;
 import br.com.lucasmaypetry.similarity.SimilarityRunner;
 import br.com.lucasmaypetry.utils.CSVWriter;
@@ -20,18 +22,25 @@ import br.com.lucasmaypetry.utils.Logger.Type;
 public class ExperimentRunner {
 
 	private ExperimentConfiguration config;
+	private AppArgs args;
 	
-	public ExperimentRunner(ExperimentConfiguration config) {
+	public ExperimentRunner(ExperimentConfiguration config, AppArgs args) {
 		this.config = config;
+		this.args = args;
 	}
 	
-	public void run(List<Trajectory> trajectories, String outputFile) {
+	public void run() {
+        TrajectoryLoader loader = new TrajectoryLoader(this.args.getInputFile());
+        List<Trajectory> trajectories = loader.load(config);
+        
 		Logger.log(Type.INFO, "Running experiment '" + this.config.getExperimentName() + "'... ");
-		ExecutorService executor = Executors.newFixedThreadPool(config.getThreads());
-		List<Application> apps = ApplicationFactory.buildApplicationsFromConfig(this.config);
-		int idxExt = outputFile.lastIndexOf(".");
-		String outPrefix = outputFile.substring(0, idxExt != -1 ? idxExt : outputFile.length());
-		String ext = idxExt != -1 ? outputFile.substring(idxExt) : ".csv";
+		ExecutorService executor = Executors.newFixedThreadPool(this.args.getThreads());
+		List<Application> apps = ApplicationFactory.buildApplicationsFromConfig(this.config, this.args.getSimilarity());
+		Logger.log(Type.INFO, apps.size() + " application(s) built!");
+		
+		int idxExt = this.args.getOutputFile().lastIndexOf(".");
+		String outPrefix = this.args.getOutputFile().substring(0, idxExt != -1 ? idxExt : this.args.getOutputFile().length());
+		String ext = idxExt != -1 ? this.args.getOutputFile().substring(idxExt) : ".csv";
 				
 		for(Application app : apps) {
 			executor.submit(() -> {
@@ -45,7 +54,7 @@ public class ExperimentRunner {
 				}
 				
 				try {
-					measure = this.config.getSimilarity().getMeasure(app);
+					measure = this.args.getSimilarity().getMeasure(app);
 				} catch (NoSuchMethodException | SecurityException | InstantiationException | IllegalAccessException
 						| IllegalArgumentException | InvocationTargetException e) {
 					Logger.log(Type.ERROR, pfx + e.getMessage());
@@ -53,9 +62,9 @@ public class ExperimentRunner {
 					return;
 				}
 				
-				double[][] sim = new SimilarityRunner(app).computeScores(measure, trajectories, !config.getComputeDistances());
+				double[][] sim = new SimilarityRunner(app).computeScores(measure, trajectories, this.args.getThreads(), !this.args.getComputeDistances());
 				
-				Logger.log(Type.INFO, pfx + "Writing similarity/distance matrix to file '" + outputFile + "'... ");
+				Logger.log(Type.INFO, pfx + "Writing similarity/distance matrix to file '" + this.args.getOutputFile() + "'... ");
 				try {
 					CSVWriter mxWriter = new CSVWriter(outFilePrefix + ext);
 					List<String> tids = new ArrayList<>();
@@ -69,7 +78,7 @@ public class ExperimentRunner {
 					}
 					
 					mxWriter.close();
-					Logger.log(Type.INFO, pfx + "Writing similarity/distance matrix to file '" + outputFile + "'... DONE!");
+					Logger.log(Type.INFO, pfx + "Writing similarity/distance matrix to file '" + this.args.getOutputFile() + "'... DONE!");
 					app.toFile(outFilePrefix + ".txt");
 					Logger.log(Type.INFO, "Running application " + app.getNumber() + "... DONE!");
 				} catch (IOException e) {

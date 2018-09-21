@@ -13,7 +13,7 @@ public class EDR implements SimilarityMeasure {
 	}
 
 	@Override
-	public double similarityOf(Trajectory t1, Trajectory t2) {
+	public final double similarityOf(Trajectory t1, Trajectory t2) {
 		int[][] matrix = new int[t1.length() + 1][t2.length() + 1];
 
 		for (int k = 0; k < t1.length() + 1; k++) {
@@ -49,7 +49,7 @@ public class EDR implements SimilarityMeasure {
 		return "EDR";
 	}
 
-	private int matches(Point p1, Point p2) {
+	private final int matches(Point p1, Point p2) {
 		for (String feature : this.app.getFeatures()) {
 			if (p1.getFeature(feature).matches(p2.getFeature(feature),
 												  this.app.getDistanceFunction(feature),
@@ -59,6 +59,11 @@ public class EDR implements SimilarityMeasure {
 		}
 
 		return 1;
+	}
+
+	@Override
+	public SimilarityMeasure copy() {
+		return new EDR(this.app.clone());
 	}
 
 }

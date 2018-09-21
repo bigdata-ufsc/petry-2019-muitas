@@ -17,7 +17,7 @@ import br.com.lucasmaypetry.distance.HashedExprDistanceFunction;
 
 public class ApplicationFactory {
 
-	public static List<Application> buildApplicationsFromConfig(ExperimentConfiguration config) {
+	public static List<Application> buildApplicationsFromConfig(ExperimentConfiguration config, SimilarityType similarity) {
 		List<Application> apps = new ArrayList<>();
 		List<List<Double>> thresholds = new ArrayList<>();
 		List<List<Double>> combinations = new ArrayList<>();
@@ -30,7 +30,7 @@ public class ApplicationFactory {
 		generateThresholdCombinations(thresholds, combinations, 0, new ArrayList<>());
 
 		for(List<Double> combination : combinations) {
-			Application app = getDefaultApp(config);
+			Application app = getDefaultApp(config, similarity);
 			for(int i = 0; i < features.size(); i++)
 				app.setThreshold(features.get(i), combination.get(i));
 			
@@ -53,8 +53,8 @@ public class ApplicationFactory {
 	    }
 	}
 
-	private static Application getDefaultApp(ExperimentConfiguration config) {
-		if(config.getSimilarity().equals(SimilarityType.MUITAS) && config.getFeaturesAnalysis() != null) {
+	private static Application getDefaultApp(ExperimentConfiguration config, SimilarityType similarity) {
+		if(similarity.equals(SimilarityType.MUITAS) && config.getFeaturesAnalysis() != null) {
 			return getMUITASApplication(config);
 		}
 
