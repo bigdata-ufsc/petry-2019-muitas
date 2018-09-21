@@ -12,7 +12,7 @@ Trajectory similarity measures library. Similarity measures included:
 
 ### Usage
 ```
-usage: Trajectory Similarity [-h] [-s {LCSS,EDR,MSM,MUITAS}] [-d {true,false}] input output config
+usage: Trajectory Similarity [-h] [-s {LCSS,EDR,MSM,MUITAS}] [-d {true,false}] [-t THREADS] input output config
 
 Compute distances/similarities of trajectories.
 
@@ -27,6 +27,8 @@ named arguments:
                          specify the similarity measure to use
   -d {true,false}, --compute-distances {true,false}
                          specify whether to compute distances (true) or similarities (false) (default: false)
+  -t THREADS, --threads THREADS
+                         the number of threads to be created for running the experiment (default: 1)
 ```
 
 Here's a sample [config file](sample_config.json) and [data file](sample_data.csv).
