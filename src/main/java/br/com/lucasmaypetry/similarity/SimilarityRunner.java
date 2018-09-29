@@ -36,7 +36,7 @@ public class SimilarityRunner {
 				matrix[i][j] = Math.abs(measure.similarityOf(trajectories.get(i), trajectories.get(j)) + add);
 				count++;
 			}
-			int perc = (int) ((double) count / totalComp);
+			int perc = (int) (count * 100.0 / totalComp);
 			Logger.log_dyn(Type.INFO, appPrefix + perc + "% complete - " + count + " / " + totalComp + " computations done.");
 		}
 		
