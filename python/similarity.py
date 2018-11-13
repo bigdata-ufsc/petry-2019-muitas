@@ -1,9 +1,8 @@
-from functools import lru_cache
 from joblib import Parallel, delayed
+from sklearn.utils import gen_even_slices
 import numpy as np
 
 
-@lru_cache(maxsize=5)
 def check_args(num_features, dist_functions, thresholds, weights=None,
                features=None):
     if len(dist_functions) != num_features:
@@ -19,9 +18,6 @@ def check_args(num_features, dist_functions, thresholds, weights=None,
 
 
 def msm(t1, t2, dist_functions, thresholds, weights, features=None):
-    check_args(num_features=len(t1[0]), dist_functions=dist_functions,
-               weights=weights, thresholds=thresholds, features=features)
-
     def score(p1, p2):
         matches = np.zeros(len(p1))
         for i, _ in enumerate(p1):
@@ -29,10 +25,10 @@ def msm(t1, t2, dist_functions, thresholds, weights, features=None):
         return np.sum(matches * weights)
 
     matrix = np.zeros(shape=(len(t1), len(t2)))
-    compute_score = np.vectorize(score)
 
     for i, p1 in enumerate(t1):
-        matrix[i] = compute_score(p1, t2)
+        for j, p2 in enumerate(t2):
+            matrix[i][j] = score(p1, p2)
 
     parity1 = np.sum(np.amax(matrix, axis=1))
     parity2 = np.sum(np.amax(np.transpose(matrix), axis=1))
@@ -40,9 +36,6 @@ def msm(t1, t2, dist_functions, thresholds, weights, features=None):
 
 
 def lcss(t1, t2, dist_functions, thresholds, features=None):
-    check_args(num_features=len(t1[0]), dist_functions=dist_functions,
-               thresholds=thresholds, features=features)
-
     def match(p1, p2):
         for i, _ in enumerate(p1):
             d = dist_functions[i](p1[i], p2[i])
@@ -65,9 +58,6 @@ def lcss(t1, t2, dist_functions, thresholds, features=None):
 
 
 def edr(t1, t2, dist_functions, thresholds, features=None):
-    check_args(num_features=len(t1[0]), dist_functions=dist_functions,
-               thresholds=thresholds, features=features)
-
     def match_cost(p1, p2):
         for i, _ in enumerate(p1):
             d = dist_functions[i](p1[i], p2[i])
@@ -97,7 +87,7 @@ def pairwise_similarity(X, Y=None, measure=msm, n_jobs=1, **kwargs):
     ----------
     X : ndarray, shape: (n_trajectories_X, n_points, n_features)
         Input data.
-    Y : ndarray, shape: (n_trajectories_Y, n_features)
+    Y : ndarray, shape: (n_trajectories_Y, n_points, n_features)
         Input data. If ``None``, the output will be the pairwise
         similarities between all samples in ``X``.
     measure : callable (default=msm)
@@ -110,15 +100,27 @@ def pairwise_similarity(X, Y=None, measure=msm, n_jobs=1, **kwargs):
     Returns
     -------
     similarities : array
-        An array with shape (n_trajectories_X, n_points, n_trajectories_Y).
+        An array with shape (n_trajectories_X, n_trajectories_Y).
     """
+    def compute_slice(X, Y, slice, upper=False):
+        matrix = np.zeros(shape=(len(X), len(Y)))
+
+        for i in range(slice.start + 1, len(X)):
+            for j in range(0, min(len(Y), i - slice.start)):
+                matrix[i][j] = measure(X[i], Y[j], **kwargs)
+        return matrix
+
     check_args(num_features=len(X[0][0]), **kwargs)
 
+    upper = Y is not None
     Y = X if not Y else Y
-    similarity = np.zeros(shape=(len(X), len(Y)))
+    func = delayed(compute_slice)
 
-    for i, t1 in enumerate(X):
-        similarity[i] = Parallel(n_jobs=n_jobs)(
-            delayed(measure)(t1, t2, **kwargs) for t2 in Y)
+    similarity = Parallel(n_jobs=n_jobs, verbose=0)(
+        func(X, Y[s], s, upper) for s in gen_even_slices(len(Y), n_jobs))
+    similarity = np.hstack(similarity)
+
+    if not upper:
+        similarity += np.transpose(similarity) + np.identity(len(X))
 
     return similarity
