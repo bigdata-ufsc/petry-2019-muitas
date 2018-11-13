@@ -1,8 +1,27 @@
+from functools import lru_cache
 from joblib import Parallel, delayed
 import numpy as np
 
 
-def msm(t1, t2, dist_functions, thresholds, features=None, weights=None):
+@lru_cache(maxsize=5)
+def check_args(num_features, dist_functions, thresholds, weights=None,
+               features=None):
+    if len(dist_functions) != num_features:
+        raise None
+    elif len(thresholds) != num_features:
+        raise None
+    elif weights and len(weights) != num_features:
+        raise None
+    elif features and len(features) != num_features:
+        raise None
+
+    return True
+
+
+def msm(t1, t2, dist_functions, thresholds, weights, features=None):
+    check_args(num_features=len(t1[0]), dist_functions=dist_functions,
+               weights=weights, thresholds=thresholds, features=features)
+
     def score(p1, p2):
         matches = np.zeros(len(p1))
         for i, _ in enumerate(p1):
@@ -21,6 +40,9 @@ def msm(t1, t2, dist_functions, thresholds, features=None, weights=None):
 
 
 def lcss(t1, t2, dist_functions, thresholds, features=None):
+    check_args(num_features=len(t1[0]), dist_functions=dist_functions,
+               thresholds=thresholds, features=features)
+
     def match(p1, p2):
         for i, _ in enumerate(p1):
             d = dist_functions[i](p1[i], p2[i])
@@ -43,6 +65,9 @@ def lcss(t1, t2, dist_functions, thresholds, features=None):
 
 
 def edr(t1, t2, dist_functions, thresholds, features=None):
+    check_args(num_features=len(t1[0]), dist_functions=dist_functions,
+               thresholds=thresholds, features=features)
+
     def match_cost(p1, p2):
         for i, _ in enumerate(p1):
             d = dist_functions[i](p1[i], p2[i])
@@ -87,6 +112,8 @@ def pairwise_similarity(X, Y=None, measure=msm, n_jobs=1, **kwargs):
     similarities : array
         An array with shape (n_trajectories_X, n_points, n_trajectories_Y).
     """
+    check_args(num_features=len(X[0][0]), **kwargs)
+
     Y = X if not Y else Y
     similarity = np.zeros(shape=(len(X), len(Y)))
 
