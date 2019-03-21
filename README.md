@@ -8,7 +8,7 @@ Trajectory similarity measures library. Similarity measures included:
 * Multidimensional Similarity Measure (MSM)
   * Furtado, A. S., Kopanaki, D., Alvares, L. O., & Bogorny, V. (2016). **Multidimensional similarity measuring for semantic trajectories.** Transactions in GIS, 20(2), 280-298.
 * Multiple-Aspect Trajectory Similarity Measure (MUITAS)
-  * Petry, L. M., Ferrero, C. A., Alvares, L. O., Renso, C., & Bogorny, V. (2019). **Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring.** Transactions in GIS (accepted), 23(X), XXX-XXX.
+  * Petry, L. M., Ferrero, C. A., Alvares, L. O., Renso, C., & Bogorny, V. (2019). **Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring.** Transactions in GIS (submitted), XX(X), XXX-XXX.
 
 
 ### Usage
