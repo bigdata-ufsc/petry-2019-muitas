@@ -1,3 +1,5 @@
+**NOTICE:** This repository is no longer maintained. Please refer to [trajminer](https://github.com/trajminer/trajminer) for new trajectory mining methods.
+
 # Trajectory similarity
 
 Trajectory similarity measures library. Similarity measures included:
