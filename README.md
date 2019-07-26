@@ -4,13 +4,13 @@
 
 Trajectory similarity measures library. Similarity measures included:
 * Edit Distance on Real sequence (EDR)
-  * Chen, L., Özsu, M. T., & Oria, V. (2005, June). **Robust and fast similarity search for moving object trajectories.** In Proceedings of the 2005 ACM SIGMOD international conference on Management of data (pp. 491-502). ACM.
+  * Chen, L., Özsu, M. T., & Oria, V. (2005, June). [**Robust and fast similarity search for moving object trajectories.**](https://dl.acm.org/citation.cfm?id=1066213) In Proceedings of the 2005 ACM SIGMOD international conference on Management of data (pp. 491-502). ACM.
 * Longest Common Subsequence (LCSS)
-  * Vlachos, M., Kollios, G., & Gunopulos, D. (2002). **Discovering similar multidimensional trajectories.** In Data Engineering, 2002. Proceedings. 18th International Conference on (pp. 673-684). IEEE.
+  * Vlachos, M., Kollios, G., & Gunopulos, D. (2002). [**Discovering similar multidimensional trajectories.**](http://people.cs.aau.dk/~simas/teaching/trajectories/00994784.pdf) In Data Engineering, 2002. Proceedings. 18th International Conference on (pp. 673-684). IEEE.
 * Multidimensional Similarity Measure (MSM)
-  * Furtado, A. S., Kopanaki, D., Alvares, L. O., & Bogorny, V. (2016). **Multidimensional similarity measuring for semantic trajectories.** Transactions in GIS, 20(2), 280-298.
+  * Furtado, A. S., Kopanaki, D., Alvares, L. O., & Bogorny, V. (2016). [**Multidimensional similarity measuring for semantic trajectories.**](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12156) Transactions in GIS, 20(2), 280-298.
 * Multiple-Aspect Trajectory Similarity Measure (MUITAS)
-  * Petry, L. M., Ferrero, C. A., Alvares, L. O., Renso, C., & Bogorny, V. (2019). **Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring.** Transactions in GIS (accepted, TBA), 23(5), XXX-XXX.
+  * Petry, L. M., Ferrero, C. A., Alvares, L. O., Renso, C., & Bogorny, V. (2019). [**Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring.**](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12542) Transactions in GIS, 23(5).
 
 
 ### Usage
