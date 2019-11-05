@@ -1,10 +1,13 @@
 **NOTICE:** This repository is no longer maintained. Please refer to [trajminer](https://github.com/trajminer/trajminer) for new trajectory mining methods.
 
+# Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring
+
+Source code of the paper **Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring**, published in Transactions in GIS.
+
 [ [publication](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12542) ] [ [preprint](./preprint.pdf) ] [ [bibtex](./citation.bib) ]
 
-# Trajectory similarity
 
-Trajectory similarity measures library. Similarity measures included:
+Trajectory similarity measures included in the library:
 * Edit Distance on Real sequence (EDR)
   * Chen, L., Özsu, M. T., & Oria, V. (2005, June). [**Robust and fast similarity search for moving object trajectories.**](https://dl.acm.org/citation.cfm?id=1066213) In Proceedings of the 2005 ACM SIGMOD international conference on Management of data (pp. 491-502). ACM.
 * Longest Common Subsequence (LCSS)
