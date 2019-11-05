@@ -1,5 +1,7 @@
 **NOTICE:** This repository is no longer maintained. Please refer to [trajminer](https://github.com/trajminer/trajminer) for new trajectory mining methods.
 
+[ [publication](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12542) ] [ [preprint](./preprint.pdf) ] [ [bibtex](./citation.bib) ]
+
 # Trajectory similarity
 
 Trajectory similarity measures library. Similarity measures included:
@@ -10,7 +12,7 @@ Trajectory similarity measures library. Similarity measures included:
 * Multidimensional Similarity Measure (MSM)
   * Furtado, A. S., Kopanaki, D., Alvares, L. O., & Bogorny, V. (2016). [**Multidimensional similarity measuring for semantic trajectories.**](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12156) Transactions in GIS, 20(2), 280-298.
 * Multiple-Aspect Trajectory Similarity Measure (MUITAS)
-  * Petry, L. M., Ferrero, C. A., Alvares, L. O., Renso, C., & Bogorny, V. (2019). [**Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring.**](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12542) Transactions in GIS, 23(5).
+  * Petry, L. M., Ferrero, C. A., Alvares, L. O., Renso, C., & Bogorny, V. (2019). [**Towards Semantic-Aware Multiple-Aspect Trajectory Similarity Measuring.**](https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12542) Transactions in GIS, 23(5), 960– 975.
 
 
 ### Usage
